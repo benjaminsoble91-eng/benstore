@@ -1,13 +1,13 @@
 {
-  "version": "1.5",
-  "build": 6,
-  "notes": "Finds the iPhone's real RemotePairing port (like SideStore) instead of assuming 49152 \u2014 fixes 'early eof'. Allow Local Network access when asked. Fixes garbled dashes in errors.",
+  "version": "1.6",
+  "build": 7,
+  "notes": "Fixes wireless pairing: the Mac now does the handshake before pairing (like idevice_pair), so the iPhone stops hanging up. Run the installer once with the cable after updating.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "4e430821912878cbf52c7a46e95051d061cc8ccf4520708e59bf6f5034abf8ac"
+    "sha256": "22cef28101b3b1669dd0a3f7c36964832ce0370f23c73c35e2d547ef48651e3c"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "01540052a3063d1c23545c8e1e06a79374047ac798932ee5833ce17ac12f6df5"
+    "sha256": "b3095f05176e5571582d78d6214831ee6cf492a0750719de5ceb83913159d31b"
   }
 }
