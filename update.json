@@ -1,0 +1,13 @@
+{
+  "version": "1.1",
+  "build": 2,
+  "notes": "Update button: update Benstore from Settings with one tap. Fixes the certificate errors (\"new certificate not found\" / \"didn't send it back yet\").",
+  "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "39b466e2f021ec7b88cb38a9bcaf5bb1d6af18bef0db66e7a0549ae5f7099237"
+  },
+  "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "009bcf674e31a91084314f31f62698fe6cbb0f54cdba577a1441b52d3d48c951"
+  }
+}
