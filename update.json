@@ -1,13 +1,13 @@
 {
-  "version": "1.2",
-  "build": 3,
-  "notes": "Fixes \"connection to device lost\" on the iPhone: Benstore now gets its own pairing for LocalDevVPN. Open Benstore Installer once and run it with your iPhone plugged in to apply it. Also reconnects automatically if LocalDevVPN blips.",
+  "version": "1.3",
+  "build": 4,
+  "notes": "iOS 26.4+ support: Benstore now uses RemotePairing (like SideStore) instead of the old lockdown connection, which Apple blocks over LocalDevVPN on iOS 26.4 and newer. Run Benstore Installer once with your iPhone plugged in after updating.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "20c8d9e7bf075014c84c168f406c5d70d2c93123a8ac1e5eabadf1d7d1336749"
+    "sha256": "ce49fa1be20964f763f774efb20f04b82230d99425e29e3cff9e91e1b717e8ea"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "33297702f3866f5f9aa3744fb51e9c20e530894c0744058617c1c79857cf46fc"
+    "sha256": "1cba7b73ffb87bde8e48287ea631a1e2a7ee5bcf195f688dec507b6ab1c1f303"
   }
 }
