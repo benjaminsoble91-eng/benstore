@@ -1,10 +1,10 @@
 {
-  "version": "1.38",
-  "build": 39,
-  "notes": "Logs now show what code each app contains and what it loads, to track down apps whose tweaks don't load.",
+  "version": "1.39",
+  "build": 40,
+  "notes": "Increased Memory Limit and Extended Virtual Addressing: turn them on per app in the app's details. Benstore enables them on the App ID with Apple and re-signs the app. Free Apple IDs get Increased Memory Limit; Apple only grants Extended Virtual Addressing to paid accounts.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "b8b8c31a7115251465a3a818583ef8066f1d8ead278634e14bbaec39ec8ab949"
+    "sha256": "9834ac301e852fec822d3765154fa137c482ec24db54da914d01c19f27126f6b"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
