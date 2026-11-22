@@ -1,13 +1,13 @@
 {
-  "version": "1.11",
-  "build": 12,
-  "notes": "Hit the 3-app limit? Benstore now asks which app to swap out, removes it, and finishes the install.",
+  "version": "1.12",
+  "build": 13,
+  "notes": "Backup Apple IDs: add one in Settings. When your main Apple ID runs out of room (3 apps or 10 App IDs a week), Benstore offers to sign with the backup. Apps remember which Apple ID to refresh with.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "19baba7a6c1feba2267bb5c7d3ab3f71ee4ca0e3aaa072c33f74edf4c8098a9b"
+    "sha256": "c3ede6e77d1d44de57d3a6e6e694ab94b1d1ef0d7296a634dd78c904be1e0e2c"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "df5ca84ae39b0070b4ac82b30e5c438a5d84ccc9e8eb2c5a38351ac5a7d98942"
+    "sha256": "ed281d9737794e7709ed61339b8ab1cf558e6cee47480b9320c771424dec6a41"
   }
 }
