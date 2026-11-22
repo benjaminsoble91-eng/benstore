@@ -1,10 +1,10 @@
 {
-  "version": "1.30",
-  "build": 31,
-  "notes": "Park fix: Benstore now asks the iPhone for each app's real installed ID before parking, removing or refreshing, so apps saved under a slightly different ID no longer fail with ApplicationLookupFailed.",
+  "version": "1.31",
+  "build": 32,
+  "notes": "Park errors now show what the iPhone reports about the app, to pin down the remaining Park issue.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "5865ef520ff4d17ee5518ec29ff2f80986fd3167fa8fe4e7ceea8363e7d5bf08"
+    "sha256": "f9e43aff317a133ad08a8493be6d019515c87ca2fc53c472c5d95385b3758c9e"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
