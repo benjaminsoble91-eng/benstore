@@ -1,10 +1,10 @@
 {
-  "version": "1.36",
-  "build": 37,
-  "notes": "Signing fix for iOS 27: apps with frameworks or tweaks (X/NeoFreeBird and most real apps) failed with 0xe8008001. Benstore now seals them the way iOS expects.",
+  "version": "1.37",
+  "build": 38,
+  "notes": "Framework signing fix: apps with frameworks (X/NeoFreeBird, Firebase apps, most real apps) now install. 1.36 accidentally re-signed framework binaries a second time.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "68086bdd96592d1c0844afe1a192ee3f59befd261f16e3f32a25b3aabe580879"
+    "sha256": "41f5f3adc0b8bb9ef474026d1af56121a559679a9d60e342ed9531ec710e044f"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
