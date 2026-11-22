@@ -1,10 +1,10 @@
 {
-  "version": "1.26",
-  "build": 27,
-  "notes": "One honest slot meter for this iPhone (iOS allows 3 free-ID apps per device, whichever Apple ID signed them). Apps from other sideloaders, like SideStore, show up in your list and can be removed. Benstore checks the phone on its own when you open it. Backups now only kick in for the weekly App ID limit.",
+  "version": "1.27",
+  "build": 28,
+  "notes": "Park: free up a slot without losing an app's data. Benstore saves the app's data and keeps its signed copy, then removes it. Bring it back anytime from the Parked shelf. When your iPhone is full, Out of room now offers to park an app instead of deleting it.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "231c6050e13c5e6d763dae86ee89ad93e99fba3898d40c00a9cb89c3ee569f9a"
+    "sha256": "6fb7d4cf69d1072028c610c1bdcc4bee48c7e512c2dc8c66a270448b12c8e7ff"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
