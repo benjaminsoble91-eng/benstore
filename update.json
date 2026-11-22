@@ -1,13 +1,13 @@
 {
-  "version": "1.7",
-  "build": 8,
-  "notes": "Faster: re-runs reuse the signing work and both pairings (no new Trust prompts). Shows how long each step took in the details. Includes the 1.6 wireless pairing fix.",
+  "version": "1.8",
+  "build": 9,
+  "notes": "Diagnostics for the wireless pairing step (records exactly what the iPhone doesn't answer). Waits 60s instead of 2 min.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "4b8b1839050549698b11be0633da146536ca99134988c629b5c83f26bf5959b6"
+    "sha256": "0eb91651c6ae8499dd804bdcebd6a0901e5aacaa6875fd3a257a9061fbada50f"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "552c0e464b117692918d4be4fb8f950bcf3339b361bc10e2e27d74bda86d7898"
+    "sha256": "ea1ed89631daf0ccbcceda748e39bebeb4485a3d857192b0aad17a78745f4ef9"
   }
 }
