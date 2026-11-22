@@ -1,13 +1,13 @@
 {
-  "version": "1.9",
-  "build": 10,
-  "notes": "Fixes from a 5-agent review: wireless pairing uses a unique name per iPhone (fixes the silent hang), shows a real error if it fails, safer self-update, crash-proof error text, faster connects, Refresh All no longer closes Benstore.",
+  "version": "1.10",
+  "build": 11,
+  "notes": "Wireless pairing now follows the order iOS 27 requires (verify, then pair, on one connection), so the iPhone shows the Trust prompt. Tap it when the installer says so.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "66532c8712c415f019d6446431316d11f91046368c7e227d04a1319c876b6b7a"
+    "sha256": "db4aa5ac0e8844516f2a3344e3de1581f6825f0643a078d224f367e65818b6bf"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "863dbe5700281c088173305a87b82d7a08cfa2e0357d84634c4e0be5ce137532"
+    "sha256": "5a12db1d84813867d4773d62a9c8ab81c1b1e38250eb1ab146e59e0a04f22094"
   }
 }
