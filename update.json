@@ -1,10 +1,10 @@
 {
-  "version": "1.33",
-  "build": 34,
-  "notes": "Deleted apps move to Parked on their own: Benstore checks on the phone each time you open it (Wi-Fi or cellular), and again whenever it connects. If an app turns out to be installed after all, it goes back to your apps.",
+  "version": "1.34",
+  "build": 35,
+  "notes": "New Settings switch: Use Backups Automatically. Turn it off and Benstore never signs with a backup Apple ID on its own.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "aaedafc9f939c35b7d1399538185078b066e14bd1bf23fb3db9689bd37abaf37"
+    "sha256": "043d897ec8173824c494484859e2a4080f42fa67c1ce211a666c4ce730c8fccd"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
