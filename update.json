@@ -1,13 +1,13 @@
 {
-  "version": "1.19",
-  "build": 20,
-  "notes": "Updating or refreshing Benstore itself on cellular: it now warns you it will close, and reminds you to turn Cellular Data back on (or runs your Shortcut) when you reopen it.",
+  "version": "1.20",
+  "build": 21,
+  "notes": "Sources (optional): turn on Settings \u2192 Sources to get a Browse tab. Add AltStore/SideStore-format sources, browse apps, and install or update them with one tap.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "503330354c446041c4a7d27edc6c8131f23daae5dd5333b87414354d37b63a5a"
+    "sha256": "c45b68c454e7b8224f7bb704507061cea9e3be76dd9a7a4ac2c7f966f30a0f95"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "90815e38c59d8e58ae1030d5f48d951491aa749318efd771b69bd614efc76604"
+    "sha256": "3d9c197a917942dd4dd414228bad5cb6fafc2914f5735507cdce9b1750c654d1"
   }
 }
