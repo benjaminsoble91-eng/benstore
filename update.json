@@ -1,10 +1,10 @@
 {
-  "version": "1.29",
-  "build": 30,
-  "notes": "Updates no longer get stuck: once the update is handed to iOS, Benstore closes itself so iOS can finish, and a notification lets you tap to reopen.",
+  "version": "1.30",
+  "build": 31,
+  "notes": "Park fix: Benstore now asks the iPhone for each app's real installed ID before parking, removing or refreshing, so apps saved under a slightly different ID no longer fail with ApplicationLookupFailed.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "c8ba5c2b180ebf496354264f9604768dd320a9835def2b4caf6dfd95e09e8892"
+    "sha256": "5865ef520ff4d17ee5518ec29ff2f80986fd3167fa8fe4e7ceea8363e7d5bf08"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
