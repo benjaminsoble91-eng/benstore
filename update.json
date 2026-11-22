@@ -1,10 +1,10 @@
 {
-  "version": "1.25",
-  "build": 26,
-  "notes": "The slot meter now counts apps signed with your Apple ID that Benstore didn't install (like an old SideStore), so it matches what iOS counts.",
+  "version": "1.26",
+  "build": 27,
+  "notes": "One honest slot meter for this iPhone (iOS allows 3 free-ID apps per device, whichever Apple ID signed them). Apps from other sideloaders, like SideStore, show up in your list and can be removed. Benstore checks the phone on its own when you open it. Backups now only kick in for the weekly App ID limit.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "6d84622a8847c9708478c6bcefcf62b3a8c4ac8360312bcc05ae66a07f2de41e"
+    "sha256": "231c6050e13c5e6d763dae86ee89ad93e99fba3898d40c00a9cb89c3ee569f9a"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
