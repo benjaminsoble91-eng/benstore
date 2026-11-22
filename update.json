@@ -1,13 +1,13 @@
 {
-  "version": "1.17",
-  "build": 18,
-  "notes": "Cellular installs (Experimental) now works the way iOS allows: on cellular, Benstore signs the app first, then asks you to turn off Cellular Data for a few seconds while it installs (or runs your Shortcuts). Also: smaller app, background update downloads, safer sign-in.",
+  "version": "1.18",
+  "build": 19,
+  "notes": "App ID tracker: Settings \u2192 App IDs shows how many of your 10 App IDs are used (main and backup Apple IDs) and when each one frees up.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "0011a845142fc3eaeaab776a7595c6bce9455c0afb18b867f49481da05504d39"
+    "sha256": "9f4e9c8f9601b2c3539a4c4aef71466a67fca233ba5503b1a2fa6bf263621153"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "a84bf949d5731d536f3ff6d990cf9f7ca38b0d014104c84c7fb476940750d5e9"
+    "sha256": "20cd9703d1ffe883e3df09655857029d100eb244070720032d10c1a6ad060c70"
   }
 }
