@@ -1,13 +1,13 @@
 {
-  "version": "1.4",
-  "build": 5,
-  "notes": "Fixes the installer getting stuck after Trust on iOS 26.4+. If the Mac can't make the wireless pairing, Benstore makes it itself on the iPhone (tap Trust once). No more red 'PairingDialogResponsePending' lines.",
+  "version": "1.5",
+  "build": 6,
+  "notes": "Finds the iPhone's real RemotePairing port (like SideStore) instead of assuming 49152 \u2014 fixes 'early eof'. Allow Local Network access when asked. Fixes garbled dashes in errors.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "c91cab3b919b12aa2e24693ff11bfee79c45077929a952495c53da7cda4353ac"
+    "sha256": "4e430821912878cbf52c7a46e95051d061cc8ccf4520708e59bf6f5034abf8ac"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "58d5da5d5231026563de45511b0ed21311664835350f83b88fc5a51c6c7d1f86"
+    "sha256": "01540052a3063d1c23545c8e1e06a79374047ac798932ee5833ce17ac12f6df5"
   }
 }
