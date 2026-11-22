@@ -1,10 +1,10 @@
 {
-  "version": "1.20",
-  "build": 21,
-  "notes": "Sources (optional): turn on Settings \u2192 Sources to get a Browse tab. Add AltStore/SideStore-format sources, browse apps, and install or update them with one tap.",
+  "version": "1.21",
+  "build": 22,
+  "notes": "Fresh look: slot meters for each Apple ID, app cards with days-left pills, a details panel when you tap an app, a green bubble when installs finish, an Add your first app screen, and icons in Settings.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "c45b68c454e7b8224f7bb704507061cea9e3be76dd9a7a4ac2c7f966f30a0f95"
+    "sha256": "e7e3c8a47e12ba1e918bde913523d97a24bbd782af876599b6b1bdff1b3473bd"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
