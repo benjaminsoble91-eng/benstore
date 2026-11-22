@@ -1,10 +1,10 @@
 {
-  "version": "1.37",
-  "build": 38,
-  "notes": "Framework signing fix: apps with frameworks (X/NeoFreeBird, Firebase apps, most real apps) now install. 1.36 accidentally re-signed framework binaries a second time.",
+  "version": "1.38",
+  "build": 39,
+  "notes": "Logs now show what code each app contains and what it loads, to track down apps whose tweaks don't load.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "41f5f3adc0b8bb9ef474026d1af56121a559679a9d60e342ed9531ec710e044f"
+    "sha256": "b8b8c31a7115251465a3a818583ef8066f1d8ead278634e14bbaec39ec8ab949"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
