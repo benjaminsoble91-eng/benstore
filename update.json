@@ -1,10 +1,10 @@
 {
-  "version": "1.21",
-  "build": 22,
-  "notes": "Fresh look: slot meters for each Apple ID, app cards with days-left pills, a details panel when you tap an app, a green bubble when installs finish, an Add your first app screen, and icons in Settings.",
+  "version": "1.22",
+  "build": 23,
+  "notes": "Settings is back to its clean look (no colored icons).",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "e7e3c8a47e12ba1e918bde913523d97a24bbd782af876599b6b1bdff1b3473bd"
+    "sha256": "b9bfa01d9e30771b20a0b1783037d35edeadc42d4e6fb4e4934dcc4584a8aab5"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
