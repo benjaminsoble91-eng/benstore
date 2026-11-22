@@ -1,13 +1,13 @@
 {
-  "version": "1.16",
-  "build": 17,
-  "notes": "Faster updates: Benstore is 3x smaller and downloads updates in the background. A failed sign-in to another Apple ID no longer logs you out of your main one. Cellular installs (Experimental) now tries every route and logs each.",
+  "version": "1.17",
+  "build": 18,
+  "notes": "Cellular installs (Experimental) now works the way iOS allows: on cellular, Benstore signs the app first, then asks you to turn off Cellular Data for a few seconds while it installs (or runs your Shortcuts). Also: smaller app, background update downloads, safer sign-in.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "bc840198000948241784ca98a4179c5be767936d18e8d456593053ea45c69256"
+    "sha256": "0011a845142fc3eaeaab776a7595c6bce9455c0afb18b867f49481da05504d39"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "6292da7e25349f10ab4f8180b85dddd56b3c158b5811ab1e9a83bcd952a383c0"
+    "sha256": "a84bf949d5731d536f3ff6d990cf9f7ca38b0d014104c84c7fb476940750d5e9"
   }
 }
