@@ -1,13 +1,13 @@
 {
-  "version": "1.13",
-  "build": 14,
-  "notes": "Backup Apple IDs marked Beta. On cellular, Benstore now says installs need Wi-Fi instead of wrongly saying LocalDevVPN is off.",
+  "version": "1.14",
+  "build": 15,
+  "notes": "Experiment: Cellular installs (Settings \u2192 Advanced). On cellular data, Benstore pins its connection to the iPhone onto LocalDevVPN's own interface so installs can work without Wi-Fi.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "236ca32c012d08589ee672c90c1753b3f2513fc159766714206ccd5304a22e25"
+    "sha256": "974c7db7167d6dfa0416734b1c5ab3f47c52115e0e7993971b5e5f02919063b2"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "d9cb57dd50d42c40fc250c122933b1fef7b104884655c7a5e1a2d4364680ec83"
+    "sha256": "174a15f70e5ae862f099430e4df4406bff9a29c087817791668ad3b8d3cb4a4a"
   }
 }
