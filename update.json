@@ -1,13 +1,13 @@
 {
-  "version": "1.8",
-  "build": 9,
-  "notes": "Diagnostics for the wireless pairing step (records exactly what the iPhone doesn't answer). Waits 60s instead of 2 min.",
+  "version": "1.9",
+  "build": 10,
+  "notes": "Fixes from a 5-agent review: wireless pairing uses a unique name per iPhone (fixes the silent hang), shows a real error if it fails, safer self-update, crash-proof error text, faster connects, Refresh All no longer closes Benstore.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "0eb91651c6ae8499dd804bdcebd6a0901e5aacaa6875fd3a257a9061fbada50f"
+    "sha256": "66532c8712c415f019d6446431316d11f91046368c7e227d04a1319c876b6b7a"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "ea1ed89631daf0ccbcceda748e39bebeb4485a3d857192b0aad17a78745f4ef9"
+    "sha256": "863dbe5700281c088173305a87b82d7a08cfa2e0357d84634c4e0be5ce137532"
   }
 }
