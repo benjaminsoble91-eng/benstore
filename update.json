@@ -1,10 +1,10 @@
 {
-  "version": "1.23",
-  "build": 24,
-  "notes": "Out of room fix: iOS 27's app-limit error now opens the Out of room screen (backup Apple ID or swap), and lists apps Benstore didn't install, like an old SideStore.",
+  "version": "1.24",
+  "build": 25,
+  "notes": "Backup Apple IDs now kick in automatically when your main one is full. You only get asked if every backup is full too.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "246b585e12aa25483e8668fa4d05c5527c28976553fa40e29dc9a1cb35544ec1"
+    "sha256": "df81fc5f710e9722dc1cedcfe1e44380e349f31562302777aeb0753c6e968a7a"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
