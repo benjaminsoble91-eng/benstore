@@ -1,13 +1,13 @@
 {
-  "version": "1.15",
-  "build": 16,
-  "notes": "Cellular installs (Experimental) in Settings \u2192 Advanced: on cellular data, Benstore pins its connection to the iPhone onto LocalDevVPN's own interface.",
+  "version": "1.16",
+  "build": 17,
+  "notes": "Faster updates: Benstore is 3x smaller and downloads updates in the background. A failed sign-in to another Apple ID no longer logs you out of your main one. Cellular installs (Experimental) now tries every route and logs each.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "3ff63c6af68015303f520deafc686d9b000b2e1eb842b70ae0ccc5bb61131899"
+    "sha256": "bc840198000948241784ca98a4179c5be767936d18e8d456593053ea45c69256"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "0d4ba7a862e437deda53544442f5c5d0b594d675bedd63af72d26caba7fcc58f"
+    "sha256": "6292da7e25349f10ab4f8180b85dddd56b3c158b5811ab1e9a83bcd952a383c0"
   }
 }
