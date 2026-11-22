@@ -1,10 +1,10 @@
 {
-  "version": "1.24",
-  "build": 25,
-  "notes": "Backup Apple IDs now kick in automatically when your main one is full. You only get asked if every backup is full too.",
+  "version": "1.25",
+  "build": 26,
+  "notes": "The slot meter now counts apps signed with your Apple ID that Benstore didn't install (like an old SideStore), so it matches what iOS counts.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "df81fc5f710e9722dc1cedcfe1e44380e349f31562302777aeb0753c6e968a7a"
+    "sha256": "6d84622a8847c9708478c6bcefcf62b3a8c4ac8360312bcc05ae66a07f2de41e"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
