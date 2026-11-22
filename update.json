@@ -1,13 +1,13 @@
 {
-  "version": "1.6",
-  "build": 7,
-  "notes": "Fixes wireless pairing: the Mac now does the handshake before pairing (like idevice_pair), so the iPhone stops hanging up. Run the installer once with the cable after updating.",
+  "version": "1.7",
+  "build": 8,
+  "notes": "Faster: re-runs reuse the signing work and both pairings (no new Trust prompts). Shows how long each step took in the details. Includes the 1.6 wireless pairing fix.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "22cef28101b3b1669dd0a3f7c36964832ce0370f23c73c35e2d547ef48651e3c"
+    "sha256": "4b8b1839050549698b11be0633da146536ca99134988c629b5c83f26bf5959b6"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "b3095f05176e5571582d78d6214831ee6cf492a0750719de5ceb83913159d31b"
+    "sha256": "552c0e464b117692918d4be4fb8f950bcf3339b361bc10e2e27d74bda86d7898"
   }
 }
