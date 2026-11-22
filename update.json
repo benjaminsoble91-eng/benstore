@@ -1,13 +1,13 @@
 {
-  "version": "1.10",
-  "build": 11,
-  "notes": "Wireless pairing now follows the order iOS 27 requires (verify, then pair, on one connection), so the iPhone shows the Trust prompt. Tap it when the installer says so.",
+  "version": "1.11",
+  "build": 12,
+  "notes": "Hit the 3-app limit? Benstore now asks which app to swap out, removes it, and finishes the install.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "db4aa5ac0e8844516f2a3344e3de1581f6825f0643a078d224f367e65818b6bf"
+    "sha256": "19baba7a6c1feba2267bb5c7d3ab3f71ee4ca0e3aaa072c33f74edf4c8098a9b"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "5a12db1d84813867d4773d62a9c8ab81c1b1e38250eb1ab146e59e0a04f22094"
+    "sha256": "df5ca84ae39b0070b4ac82b30e5c438a5d84ccc9e8eb2c5a38351ac5a7d98942"
   }
 }
