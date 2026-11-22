@@ -1,13 +1,13 @@
 {
-  "version": "1.3",
-  "build": 4,
-  "notes": "iOS 26.4+ support: Benstore now uses RemotePairing (like SideStore) instead of the old lockdown connection, which Apple blocks over LocalDevVPN on iOS 26.4 and newer. Run Benstore Installer once with your iPhone plugged in after updating.",
+  "version": "1.4",
+  "build": 5,
+  "notes": "Fixes the installer getting stuck after Trust on iOS 26.4+. If the Mac can't make the wireless pairing, Benstore makes it itself on the iPhone (tap Trust once). No more red 'PairingDialogResponsePending' lines.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "ce49fa1be20964f763f774efb20f04b82230d99425e29e3cff9e91e1b717e8ea"
+    "sha256": "c91cab3b919b12aa2e24693ff11bfee79c45077929a952495c53da7cda4353ac"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "1cba7b73ffb87bde8e48287ea631a1e2a7ee5bcf195f688dec507b6ab1c1f303"
+    "sha256": "58d5da5d5231026563de45511b0ed21311664835350f83b88fc5a51c6c7d1f86"
   }
 }
