@@ -1,10 +1,10 @@
 {
-  "version": "1.28",
-  "build": 29,
-  "notes": "Cellular fixes: parking, bringing back and removing apps now work on cellular. Updates keep going if you leave Benstore, you get a notification when it needs you to turn data off, and another when the update is done.",
+  "version": "1.29",
+  "build": 30,
+  "notes": "Updates no longer get stuck: once the update is handed to iOS, Benstore closes itself so iOS can finish, and a notification lets you tap to reopen.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "559eb010e65a57f25741f7440ee6bb0e1b986dea5598f08a86fde2691299e728"
+    "sha256": "c8ba5c2b180ebf496354264f9604768dd320a9835def2b4caf6dfd95e09e8892"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
