@@ -1,10 +1,10 @@
 {
-  "version": "1.22",
-  "build": 23,
-  "notes": "Settings is back to its clean look (no colored icons).",
+  "version": "1.23",
+  "build": 24,
+  "notes": "Out of room fix: iOS 27's app-limit error now opens the Out of room screen (backup Apple ID or swap), and lists apps Benstore didn't install, like an old SideStore.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "b9bfa01d9e30771b20a0b1783037d35edeadc42d4e6fb4e4934dcc4584a8aab5"
+    "sha256": "246b585e12aa25483e8668fa4d05c5527c28976553fa40e29dc9a1cb35544ec1"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
