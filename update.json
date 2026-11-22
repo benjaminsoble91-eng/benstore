@@ -1,13 +1,13 @@
 {
-  "version": "1.18",
-  "build": 19,
-  "notes": "App ID tracker: Settings \u2192 App IDs shows how many of your 10 App IDs are used (main and backup Apple IDs) and when each one frees up.",
+  "version": "1.19",
+  "build": 20,
+  "notes": "Updating or refreshing Benstore itself on cellular: it now warns you it will close, and reminds you to turn Cellular Data back on (or runs your Shortcut) when you reopen it.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "9f4e9c8f9601b2c3539a4c4aef71466a67fca233ba5503b1a2fa6bf263621153"
+    "sha256": "503330354c446041c4a7d27edc6c8131f23daae5dd5333b87414354d37b63a5a"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "20cd9703d1ffe883e3df09655857029d100eb244070720032d10c1a6ad060c70"
+    "sha256": "90815e38c59d8e58ae1030d5f48d951491aa749318efd771b69bd614efc76604"
   }
 }
