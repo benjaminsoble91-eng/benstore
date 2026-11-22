@@ -1,10 +1,10 @@
 {
-  "version": "1.34",
-  "build": 35,
-  "notes": "New Settings switch: Use Backups Automatically. Turn it off and Benstore never signs with a backup Apple ID on its own.",
+  "version": "1.35",
+  "build": 36,
+  "notes": "Use Backup Apple ID: turn it on in Settings and new installs sign with your backup instead of your main Apple ID. Your main one is only used if the backup runs out of App IDs.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "043d897ec8173824c494484859e2a4080f42fa67c1ce211a666c4ce730c8fccd"
+    "sha256": "dd3f71af89c2090267e64b336ee0e35c786baf3549696e9ee35f22a4a7739edc"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
