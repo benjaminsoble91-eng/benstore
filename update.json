@@ -1,10 +1,10 @@
 {
-  "version": "1.27",
-  "build": 28,
-  "notes": "Park: free up a slot without losing an app's data. Benstore saves the app's data and keeps its signed copy, then removes it. Bring it back anytime from the Parked shelf. When your iPhone is full, Out of room now offers to park an app instead of deleting it.",
+  "version": "1.28",
+  "build": 29,
+  "notes": "Cellular fixes: parking, bringing back and removing apps now work on cellular. Updates keep going if you leave Benstore, you get a notification when it needs you to turn data off, and another when the update is done.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "6fb7d4cf69d1072028c610c1bdcc4bee48c7e512c2dc8c66a270448b12c8e7ff"
+    "sha256": "559eb010e65a57f25741f7440ee6bb0e1b986dea5598f08a86fde2691299e728"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
