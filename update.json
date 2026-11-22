@@ -1,10 +1,10 @@
 {
-  "version": "1.31",
-  "build": 32,
-  "notes": "Park errors now show what the iPhone reports about the app, to pin down the remaining Park issue.",
+  "version": "1.32",
+  "build": 33,
+  "notes": "Apps you deleted from the home screen no longer linger: Benstore moves them to the Parked shelf as Not on iPhone, so one tap reinstalls them. Parking an app that's already gone just shelves it.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "f9e43aff317a133ad08a8493be6d019515c87ca2fc53c472c5d95385b3758c9e"
+    "sha256": "27e8758f81704e3e9173c2dcd5ea73a62e46e6c2c745a731f4f3f3e2f5b6b119"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
