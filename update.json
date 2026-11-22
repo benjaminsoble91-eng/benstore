@@ -1,10 +1,10 @@
 {
-  "version": "1.35",
-  "build": 36,
-  "notes": "Use Backup Apple ID: turn it on in Settings and new installs sign with your backup instead of your main Apple ID. Your main one is only used if the backup runs out of App IDs.",
+  "version": "1.36",
+  "build": 37,
+  "notes": "Signing fix for iOS 27: apps with frameworks or tweaks (X/NeoFreeBird and most real apps) failed with 0xe8008001. Benstore now seals them the way iOS expects.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "dd3f71af89c2090267e64b336ee0e35c786baf3549696e9ee35f22a4a7739edc"
+    "sha256": "68086bdd96592d1c0844afe1a192ee3f59befd261f16e3f32a25b3aabe580879"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
