@@ -1,10 +1,10 @@
 {
-  "version": "1.32",
-  "build": 33,
-  "notes": "Apps you deleted from the home screen no longer linger: Benstore moves them to the Parked shelf as Not on iPhone, so one tap reinstalls them. Parking an app that's already gone just shelves it.",
+  "version": "1.33",
+  "build": 34,
+  "notes": "Deleted apps move to Parked on their own: Benstore checks on the phone each time you open it (Wi-Fi or cellular), and again whenever it connects. If an app turns out to be installed after all, it goes back to your apps.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "27e8758f81704e3e9173c2dcd5ea73a62e46e6c2c745a731f4f3f3e2f5b6b119"
+    "sha256": "aaedafc9f939c35b7d1399538185078b066e14bd1bf23fb3db9689bd37abaf37"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
