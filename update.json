@@ -1,14 +1,14 @@
 {
-  "version": "1.43",
-  "build": "44/x",
-  "notes": "Delete App IDs: swipe left on any App ID in Settings \u2192 Apple ID \u2192 App IDs, for your main or backup Apple ID.",
+  "version": "1.44",
+  "build": "45/x",
+  "notes": "The slot count now includes every sideloaded app on your iPhone, whichever Apple ID or tool installed it. Apps no longer get wrongly moved to Parked as Not on iPhone.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "3d28b3124a60f59fbee882b999943876bca5391ee4674ff3f9320ac1e81ec638"
+    "sha256": "161bc246562e667b1fa7891f19a28ce628fac01ca6805ac64a402f513d20da0d"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "611614e2dee76a570091c5e2089be3328d7bf7b088ebf2dd3a5dc2b384bf8ce2",
-    "build": 44
+    "sha256": "8959c345a8e0f3b113b6ea04ddcf5caa7fa93a094bde5da98479bd9535f494bb",
+    "build": 45
   }
 }
