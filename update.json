@@ -1,13 +1,14 @@
 {
-  "version": "1.40",
-  "build": 41,
-  "notes": "Certificate limit fix: Benstore now lets you pick which certificate to replace (and shows which app made each one) instead of failing. The App IDs screen no longer needs a certificate.",
+  "version": "1.41",
+  "build": "42/x",
+  "notes": "Fixes the crash when tapping Update (it happened when the update had already downloaded in the background).",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "020bfabe6374c540e0050533d64d1fbe7e386043fcd9647d9e2f4c13a96764aa"
+    "sha256": "5e7ca84788c6d93bba59557c7d9e97340776815655c2496fb2aca1585de6014b"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "3d9c197a917942dd4dd414228bad5cb6fafc2914f5735507cdce9b1750c654d1"
+    "sha256": "3d9c197a917942dd4dd414228bad5cb6fafc2914f5735507cdce9b1750c654d1",
+    "build": 42
   }
 }
