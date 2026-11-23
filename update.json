@@ -1,14 +1,14 @@
 {
-  "version": "1.45",
-  "build": "46/x",
-  "notes": "Custom app icons: open any app, tap its icon (or App Icon \u2192 Change) and pick a picture. Only the icon changes, not the app. Same App ID, so it doesn't count toward the weekly limit. Reset to Original anytime.",
+  "version": "1.46",
+  "build": "47/x",
+  "notes": "Fixes custom icons causing 'A signed resource has been added, modified, or deleted' (0xe8008017). Apps stuck in that state fix themselves on the next Refresh.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "b5d37e6d9eed35f19c63f565d99d725ec82ae2944109f9516f341c0a6f89dacb"
+    "sha256": "d099be8a5ecc0c97d5a7b3114d4f3970016253a9a821f3866017d3ea3808e9a2"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "cac5e9895f83a46071eb64e7a69e6afbd2d0d1409414c95acb1da90ab5f6ee12",
-    "build": 46
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
   }
 }
