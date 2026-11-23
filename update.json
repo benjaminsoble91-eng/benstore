@@ -1,14 +1,14 @@
 {
-  "version": "1.44",
-  "build": "45/x",
-  "notes": "The slot count now includes every sideloaded app on your iPhone, whichever Apple ID or tool installed it. Apps no longer get wrongly moved to Parked as Not on iPhone.",
+  "version": "1.45",
+  "build": "46/x",
+  "notes": "Custom app icons: open any app, tap its icon (or App Icon \u2192 Change) and pick a picture. Only the icon changes, not the app. Same App ID, so it doesn't count toward the weekly limit. Reset to Original anytime.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "161bc246562e667b1fa7891f19a28ce628fac01ca6805ac64a402f513d20da0d"
+    "sha256": "b5d37e6d9eed35f19c63f565d99d725ec82ae2944109f9516f341c0a6f89dacb"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "8959c345a8e0f3b113b6ea04ddcf5caa7fa93a094bde5da98479bd9535f494bb",
-    "build": 45
+    "sha256": "cac5e9895f83a46071eb64e7a69e6afbd2d0d1409414c95acb1da90ab5f6ee12",
+    "build": 46
   }
 }
