@@ -1,14 +1,14 @@
 {
-  "version": "1.41",
-  "build": "42/x",
-  "notes": "Fixes the crash when tapping Update (it happened when the update had already downloaded in the background).",
+  "version": "1.42",
+  "build": "43/x",
+  "notes": "Two-step sign-in: you can now ask for the code by text message (Benstore and Benstore Installer). Also fixes the Mac installer: updates since this morning were shipping an old copy.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "5e7ca84788c6d93bba59557c7d9e97340776815655c2496fb2aca1585de6014b"
+    "sha256": "9bad4901de630142a451727e6946409ad02ffdead732d693b8ca5a68d0e7c238"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
-    "sha256": "3d9c197a917942dd4dd414228bad5cb6fafc2914f5735507cdce9b1750c654d1",
-    "build": 42
+    "sha256": "9704a7238c8529f9daf65ddf92a8b192a0ee2998661018d6533678754537dea0",
+    "build": 43
   }
 }
