@@ -6,7 +6,8 @@
       "tweak": "SCInsta",
       "tweakFile": "SCInsta.dylib",
       "tweakUpdate": "tweaks/scinsta/update.json",
-      "about": "Instagram with SCInsta: no ads, media downloads, Meta AI hidden, confirmations, crash-safe mode."
+      "about": "Instagram with SCInsta: no ads, media downloads, Meta AI hidden, confirmations, crash-safe mode.",
+      "bundle": "com.burbn.instagram"
     }
   ]
 }

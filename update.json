@@ -1,10 +1,10 @@
 {
-  "version": "1.52",
-  "build": 53,
-  "notes": "Sideload Fixes for every app (on by default, switch on each app's page): fixes crashes from missing app groups (like Instagram's) and the TestFlight-receipt check. Modded apps can now come from a plain decrypted IPA: Benstore adds the tweak itself.",
+  "version": "1.53",
+  "build": 54,
+  "notes": "Settings \u2192 Modded: add your own Mod Sources (AltStore-style links, no token). The Modded tab finds each app's base IPA there, adds the tweak and the sideload fixes, and installs or updates it. Private Release is now optional.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "871c2229f2403d62efb8d7d206ee3f74410da7df446b07752aa1abcbaa88cfd1"
+    "sha256": "cce6dc7a9d57d3cfea422703c43db7bc1f6648d39a6d511cb06f8f2d40dfe574"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
