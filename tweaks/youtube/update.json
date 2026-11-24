@@ -1,0 +1,42 @@
+{
+  "tweak": "YouTube Open Tweaks",
+  "build": "20261124.0200",
+  "package": "https://benjaminsoble91-eng.github.io/benstore/tweaks/youtube/package.zip",
+  "sha256": "f00d56b5ae6c05e7aa1d12b1ced3d2a48a9986bfb1ad6c25e187e5d304b5b91f",
+  "load": [
+    "YTVideoOverlay.dylib",
+    "YouQuality.dylib",
+    "YouMute.dylib",
+    "YouPiP.dylib",
+    "YouTubeDislikesReturn.dylib"
+  ],
+  "notes": "YouPiP (picture-in-picture), Return YouTube Dislikes, YouQuality and YouMute player buttons. Open-source; sources listed.",
+  "sources": [
+    {
+      "name": "YTVideoOverlay",
+      "license": "MIT",
+      "url": "https://github.com/PoomSmart/YTVideoOverlay/tree/f5bfd3f0cc7b3d18ea45e505da6c3120a26b89d2"
+    },
+    {
+      "name": "YouQuality",
+      "license": "MIT",
+      "url": "https://github.com/PoomSmart/YouQuality/tree/3199d594bbec58f419107fc7b1d9c28f209bcd04"
+    },
+    {
+      "name": "YouMute",
+      "license": "MIT",
+      "url": "https://github.com/PoomSmart/YouMute/tree/d2cf6cce286fc9dd6c1ae6e24e5f1b7961564169"
+    },
+    {
+      "name": "YouPiP",
+      "license": "MIT",
+      "url": "https://github.com/PoomSmart/YouPiP/tree/034477a48c8ec18736e26d054106df88c1f0deb3",
+      "changes": "Sideload build: Substrate symbol lookup replaced with dlopen/dlsym (SubstrateShim.c)."
+    },
+    {
+      "name": "Return YouTube Dislikes",
+      "license": "GPL-3.0",
+      "url": "https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/3347d770d699653fae6597bfe3b36ee896fbc9e8"
+    }
+  ]
+}

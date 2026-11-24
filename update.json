@@ -1,10 +1,10 @@
 {
-  "version": "1.53",
-  "build": 54,
-  "notes": "Settings \u2192 Modded: add your own Mod Sources (AltStore-style links, no token). The Modded tab finds each app's base IPA there, adds the tweak and the sideload fixes, and installs or updates it. Private Release is now optional.",
+  "version": "1.54",
+  "build": 55,
+  "notes": "Modded: YouTube + Open Tweaks (picture-in-picture, Return YouTube Dislikes, quality and mute buttons). Benstore supplies the tweaks; you bring the decrypted IPA (new: Choose Decrypted IPA, or your Mod Sources). Multi-file tweak packages with one-tap updates.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "cce6dc7a9d57d3cfea422703c43db7bc1f6648d39a6d511cb06f8f2d40dfe574"
+    "sha256": "f3ac691194f14e3cfc76ddb3d7abd0a726a01f6f72e5db1a1a8cc69d4d28e121"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",

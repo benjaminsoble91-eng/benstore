@@ -8,6 +8,15 @@
       "tweakUpdate": "tweaks/scinsta/update.json",
       "about": "Instagram with SCInsta: no ads, media downloads, Meta AI hidden, confirmations, crash-safe mode.",
       "bundle": "com.burbn.instagram"
+    },
+    {
+      "id": "youtube-open",
+      "name": "YouTube",
+      "bundle": "com.google.ios.youtube",
+      "tweak": "Open Tweaks",
+      "tweakFile": "YTVideoOverlay.dylib",
+      "tweakUpdate": "tweaks/youtube/update.json",
+      "about": "YouTube with open-source tweaks: picture-in-picture (YouPiP), Return YouTube Dislikes, quality and mute buttons. No ad blocking (no open-licensed one exists). You bring the decrypted YouTube IPA."
     }
   ]
 }
