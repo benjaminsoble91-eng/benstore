@@ -1,10 +1,10 @@
 {
-  "version": "1.46",
-  "build": "47/x",
-  "notes": "Fixes custom icons causing 'A signed resource has been added, modified, or deleted' (0xe8008017). Apps stuck in that state fix themselves on the next Refresh.",
+  "version": "1.47",
+  "build": 48,
+  "notes": "Tweak updates: apps with the SCInsta tweak get an \"Update tweak\" button (and SCInsta's own Update button opens Benstore). Benstore swaps in the new tweak, re-signs and reinstalls \u2014 your login and data stay.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "d099be8a5ecc0c97d5a7b3114d4f3970016253a9a821f3866017d3ea3808e9a2"
+    "sha256": "367ab1fd1115f4bf3146bb4c850e1a5f830d71cd7129a4f037c39613e4a4ed68"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
