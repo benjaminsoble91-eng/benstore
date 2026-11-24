@@ -1,10 +1,10 @@
 {
-  "version": "1.49",
-  "build": 50,
-  "notes": "Instagram from your private release: Apps \u2192 + \u2192 Private Release Settings (GitHub token, once), then Benstore installs and updates Instagram with the newest SCInsta straight from your private GitHub release. Your login and data stay on updates.",
+  "version": "1.50",
+  "build": 51,
+  "notes": "Crash Log works on cellular: with Cellular installs (Experimental) on, Benstore asks you to turn Cellular Data off for a few seconds to read the log, then you can turn it back on.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "30b7b036d335972801f871b4115caf951752fecde01e7256123c13acdeb1f109"
+    "sha256": "95038421b7f15eafcb693ac91aea4789a404212612c7c5851d016455aa4690bf"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
