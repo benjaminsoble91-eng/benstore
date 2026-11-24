@@ -1,10 +1,10 @@
 {
-  "version": "1.50",
-  "build": 51,
-  "notes": "Crash Log works on cellular: with Cellular installs (Experimental) on, Benstore asks you to turn Cellular Data off for a few seconds to read the log, then you can turn it back on.",
+  "version": "1.51",
+  "build": 52,
+  "notes": "New Modded tab: your modded apps (Instagram + SCInsta, more later) with Install / Update from your private release, Update tweak and Crash Log in one place.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "95038421b7f15eafcb693ac91aea4789a404212612c7c5851d016455aa4690bf"
+    "sha256": "75d90492f32965e3cd6f4ba0a5889c614258bbd95290435025a2901b407de4f4"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
