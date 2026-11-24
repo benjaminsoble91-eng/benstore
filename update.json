@@ -1,10 +1,10 @@
 {
-  "version": "1.47",
-  "build": 48,
-  "notes": "Tweak updates: apps with the SCInsta tweak get an \"Update tweak\" button (and SCInsta's own Update button opens Benstore). Benstore swaps in the new tweak, re-signs and reinstalls \u2014 your login and data stay.",
+  "version": "1.48",
+  "build": 49,
+  "notes": "Crash Log (Beta): on an app's page, View shows what the SCInsta tweak recorded on recent launches (timeline, crash and backtrace), read straight from the app even if it won't open. Also: one-tap SCInsta tweak updates.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "367ab1fd1115f4bf3146bb4c850e1a5f830d71cd7129a4f037c39613e4a4ed68"
+    "sha256": "f845917c24bbdf5eb44dec7f3c3a2dab7d85a28f89f4e6788f05db9877a6ae93"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
