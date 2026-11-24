@@ -1,0 +1,7 @@
+{
+  "tweak": "SCInsta.dylib",
+  "build": "20261124.0019",
+  "notes": "Ported to Instagram 457: launch-crash fixes, sideload beta-screen fix, crash-safe mode, Update tweak button.",
+  "url": "https://benjaminsoble91-eng.github.io/benstore/tweaks/scinsta/SCInsta.dylib",
+  "sha256": "b2da003464f0c8319d7fe14fca456c368ea8ad76c4ccf05dd65c5076087d61b9"
+}
