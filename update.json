@@ -1,10 +1,10 @@
 {
-  "version": "1.48",
-  "build": 49,
-  "notes": "Crash Log (Beta): on an app's page, View shows what the SCInsta tweak recorded on recent launches (timeline, crash and backtrace), read straight from the app even if it won't open. Also: one-tap SCInsta tweak updates.",
+  "version": "1.49",
+  "build": 50,
+  "notes": "Instagram from your private release: Apps \u2192 + \u2192 Private Release Settings (GitHub token, once), then Benstore installs and updates Instagram with the newest SCInsta straight from your private GitHub release. Your login and data stay on updates.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "f845917c24bbdf5eb44dec7f3c3a2dab7d85a28f89f4e6788f05db9877a6ae93"
+    "sha256": "30b7b036d335972801f871b4115caf951752fecde01e7256123c13acdeb1f109"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
