@@ -1,7 +1,7 @@
 {
   "tweak": "SCInsta.dylib",
-  "build": "20261124.0041",
-  "notes": "Crash black box: SCInsta records each launch (how far it got, hooks that didn't match this Instagram version, the crash and its backtrace, Swift fatal errors). View it in Benstore: Instagram's page, Crash Log (Beta).",
+  "build": "20261124.0119",
+  "notes": "Fixes Instagram closing ~8 seconds after opening: sideloaded Instagram has no app group folder, so SCInsta now gives it a private one.",
   "url": "https://benjaminsoble91-eng.github.io/benstore/tweaks/scinsta/SCInsta.dylib",
-  "sha256": "ed39bee988da2c29352d3a52e7a899616af5f0c4f79648e9a851a7c205e1c67b"
+  "sha256": "ba933fd6589081e5dbc29acd8d8a5e4dfec71585170e386a02932c1e4439f302"
 }
