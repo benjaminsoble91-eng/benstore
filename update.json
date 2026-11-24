@@ -1,10 +1,10 @@
 {
-  "version": "1.51",
-  "build": 52,
-  "notes": "New Modded tab: your modded apps (Instagram + SCInsta, more later) with Install / Update from your private release, Update tweak and Crash Log in one place.",
+  "version": "1.52",
+  "build": 53,
+  "notes": "Sideload Fixes for every app (on by default, switch on each app's page): fixes crashes from missing app groups (like Instagram's) and the TestFlight-receipt check. Modded apps can now come from a plain decrypted IPA: Benstore adds the tweak itself.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "75d90492f32965e3cd6f4ba0a5889c614258bbd95290435025a2901b407de4f4"
+    "sha256": "871c2229f2403d62efb8d7d206ee3f74410da7df446b07752aa1abcbaa88cfd1"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
