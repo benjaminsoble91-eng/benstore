@@ -1,10 +1,10 @@
 {
-  "version": "1.55",
-  "build": 56,
-  "notes": "Auto-strip: if an app won't install because of something inside it (a broken extension, Watch app, App Clip, junk files, device-only limits), Benstore strips the parts it's choking on and retries automatically. Frameworks the app needs and your tweaks are never removed. Each step shows in the log.",
+  "version": "1.56",
+  "build": 57,
+  "notes": "Auto-strip switch: turn auto-strip on or off in Settings \u2192 Installing (on by default).",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "14f2771e6a52e1e21ba385d7bcfb3638fa6dbe0205bbb0c922e9e6f92019efb7"
+    "sha256": "2f29cc77dc645b76b4f3d40f84319010ca61d155c3fd62e2128d327d497786a1"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,19 +13,34 @@
   },
   "versions": [
     {
-      "version": "1.55",
-      "build": 56,
-      "date": "2026-11-24T19:22:06-05:00",
-      "notes": "Auto-strip: if an app won't install because of something inside it (a broken extension, Watch app, App Clip, junk files, device-only limits), Benstore strips the parts it's choking on and retries automatically. Frameworks the app needs and your tweaks are never removed. Each step shows in the log.",
+      "version": "1.56",
+      "build": 57,
+      "date": "2026-11-25T09:55:00-05:00",
+      "notes": "Auto-strip switch: turn auto-strip on or off in Settings \u2192 Installing (on by default).",
       "ios": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-        "sha256": "14f2771e6a52e1e21ba385d7bcfb3638fa6dbe0205bbb0c922e9e6f92019efb7",
-        "size": 1804567
+        "sha256": "2f29cc77dc645b76b4f3d40f84319010ca61d155c3fd62e2128d327d497786a1",
+        "size": 1806918
       },
       "mac": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
         "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
         "build": 47
+      }
+    },
+    {
+      "version": "1.55",
+      "build": 56,
+      "date": "2026-11-24T19:22:06-05:00",
+      "notes": "Auto-strip: if an app won't install because of something inside it (a broken extension, Watch app, App Clip, junk files, device-only limits), Benstore strips the parts it's choking on and retries automatically. Frameworks the app needs and your tweaks are never removed. Each step shows in the log.",
+      "ios": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c24089b7378cd32d260e6f88b903309e237e958a/Benstore.ipa",
+        "sha256": "14f2771e6a52e1e21ba385d7bcfb3638fa6dbe0205bbb0c922e9e6f92019efb7",
+        "size": 1804567
+      },
+      "mac": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c24089b7378cd32d260e6f88b903309e237e958a/Benstore-Installer.zip",
+        "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d"
       }
     },
     {
@@ -47,7 +62,7 @@
       "version": "1.53",
       "build": 54,
       "date": "2026-11-23T20:45:01-05:00",
-      "notes": "Mod Sources (Settings → Modded), private release optional",
+      "notes": "Mod Sources (Settings \u2192 Modded), private release optional",
       "ios": {
         "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/891cd79aacd4b6a7ed840cbba8fe2a9455b82752/Benstore.ipa",
         "sha256": "cce6dc7a9d57d3cfea422703c43db7bc1f6648d39a6d511cb06f8f2d40dfe574",
