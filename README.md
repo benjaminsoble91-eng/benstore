@@ -7,4 +7,4 @@ On-device iOS sideloader (Apple ID signing) + Benstore Installer for Mac.
 
 Both apps check `update.json` here and update themselves with one tap.
 
-**Downgrade:** in Benstore, Settings → turn on Sources → Browse → + → `https://benjaminsoble91-eng.github.io/benstore/versions-source.json`, then install any version. Or use the [Versions page](https://benjaminsoble91-eng.github.io/benstore/versions.html) in Safari.
+**Downgrade:** [all past versions](https://benjaminsoble91-eng.github.io/benstore/versions.html). Open the page in Safari, tap Get, then Share → Benstore. `update.json` → `versions` lists every build with its checksum.
