@@ -1,10 +1,10 @@
 {
-  "version": "1.58",
-  "build": 59,
-  "notes": "Fix: App Groups and Auto-strip now find the app's files (1.55-1.57 looked in the wrong folder, so neither kicked in). The log now says exactly what happened with App Groups.",
+  "version": "1.59",
+  "build": 60,
+  "notes": "App Groups fix for free Apple IDs: turn on App Groups the way AltStore does (only that feature), with a fallback to Apple's newer API.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "d41630866306c15194d27e622ef8850b3647e912764a890eeed19538a7f1e73f"
+    "sha256": "a756c595aae025dbd0900db5951db22ace17ce14df978a35c04a38f98eb52569"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,19 +13,34 @@
   },
   "versions": [
     {
-      "version": "1.58",
-      "build": 59,
-      "date": "2026-11-25T10:35:00-05:00",
-      "notes": "Fix: App Groups and Auto-strip now find the app's files (1.55-1.57 looked in the wrong folder, so neither kicked in). The log now says exactly what happened with App Groups.",
+      "version": "1.59",
+      "build": 60,
+      "date": "2026-11-25T10:40:00-05:00",
+      "notes": "App Groups fix for free Apple IDs: turn on App Groups the way AltStore does (only that feature), with a fallback to Apple's newer API.",
       "ios": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-        "sha256": "d41630866306c15194d27e622ef8850b3647e912764a890eeed19538a7f1e73f",
-        "size": 1818136
+        "sha256": "a756c595aae025dbd0900db5951db22ace17ce14df978a35c04a38f98eb52569",
+        "size": 1820286
       },
       "mac": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
         "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
         "build": 47
+      }
+    },
+    {
+      "version": "1.58",
+      "build": 59,
+      "date": "2026-11-25T10:35:00-05:00",
+      "notes": "Fix: App Groups and Auto-strip now find the app's files (1.55-1.57 looked in the wrong folder, so neither kicked in). The log now says exactly what happened with App Groups.",
+      "ios": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b610149f8221c91106dad897c4dcc9286dcc1b0a/Benstore.ipa",
+        "sha256": "d41630866306c15194d27e622ef8850b3647e912764a890eeed19538a7f1e73f",
+        "size": 1818136
+      },
+      "mac": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b610149f8221c91106dad897c4dcc9286dcc1b0a/Benstore-Installer.zip",
+        "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d"
       }
     },
     {
