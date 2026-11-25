@@ -1,10 +1,10 @@
 {
-  "version": "1.56",
-  "build": 57,
-  "notes": "Auto-strip switch: turn auto-strip on or off in Settings \u2192 Installing (on by default).",
+  "version": "1.57",
+  "build": 58,
+  "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings \u2192 Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "2f29cc77dc645b76b4f3d40f84319010ca61d155c3fd62e2128d327d497786a1"
+    "sha256": "d039b252ae5156a534eae0013efd5a892a375640dbe2d046262340d3b145e75a"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,19 +13,34 @@
   },
   "versions": [
     {
-      "version": "1.56",
-      "build": 57,
-      "date": "2026-11-25T09:55:00-05:00",
-      "notes": "Auto-strip switch: turn auto-strip on or off in Settings \u2192 Installing (on by default).",
+      "version": "1.57",
+      "build": 58,
+      "date": "2026-11-25T10:15:00-05:00",
+      "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings \u2192 Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
       "ios": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-        "sha256": "2f29cc77dc645b76b4f3d40f84319010ca61d155c3fd62e2128d327d497786a1",
-        "size": 1806918
+        "sha256": "d039b252ae5156a534eae0013efd5a892a375640dbe2d046262340d3b145e75a",
+        "size": 1817441
       },
       "mac": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
         "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
         "build": 47
+      }
+    },
+    {
+      "version": "1.56",
+      "build": 57,
+      "date": "2026-11-25T09:55:00-05:00",
+      "notes": "Auto-strip switch: turn auto-strip on or off in Settings \u2192 Installing (on by default).",
+      "ios": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/4a7ea750e2d14c348b375189cbf2c640e3b87668/Benstore.ipa",
+        "sha256": "2f29cc77dc645b76b4f3d40f84319010ca61d155c3fd62e2128d327d497786a1",
+        "size": 1806918
+      },
+      "mac": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/4a7ea750e2d14c348b375189cbf2c640e3b87668/Benstore-Installer.zip",
+        "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d"
       }
     },
     {
