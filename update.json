@@ -1,10 +1,10 @@
 {
-  "version": "1.54",
-  "build": 55,
-  "notes": "Modded: YouTube + Open Tweaks (picture-in-picture, Return YouTube Dislikes, quality and mute buttons). Benstore supplies the tweaks; you bring the decrypted IPA (new: Choose Decrypted IPA, or your Mod Sources). Multi-file tweak packages with one-tap updates.",
+  "version": "1.55",
+  "build": 56,
+  "notes": "Auto-strip: if an app won't install because of something inside it (a broken extension, Watch app, App Clip, junk files, device-only limits), Benstore strips the parts it's choking on and retries automatically. Frameworks the app needs and your tweaks are never removed. Each step shows in the log.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "f3ac691194f14e3cfc76ddb3d7abd0a726a01f6f72e5db1a1a8cc69d4d28e121"
+    "sha256": "14f2771e6a52e1e21ba385d7bcfb3638fa6dbe0205bbb0c922e9e6f92019efb7"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
