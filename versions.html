@@ -45,8 +45,16 @@
   <p class="sub">Install any past build to downgrade. Your apps, Apple IDs and parked apps stay on the phone.</p>
 </header>
 
+<div class="how"><details open>
+  <summary>Downgrade inside Benstore</summary>
+  <ol>
+    <li>Benstore → Settings → turn on <b>Sources</b>.</li>
+    <li>Browse tab → <b>+</b> → paste this link: <button id="cp" style="padding:4px 12px;font-size:13px">Copy link</button></li>
+    <li>Pick a version under <b>Benstore Versions</b> and install it.</li>
+  </ol>
+</details></div>
 <div class="how"><details>
-  <summary>How to downgrade</summary>
+  <summary>Or download it here</summary>
   <ol>
     <li>Open this page in Safari on your iPhone, then tap <b>Get</b> on the version you want.</li>
     <li>When the download finishes, open it (the download arrow in Safari, or Files → Downloads).</li>
@@ -108,6 +116,11 @@ list.addEventListener('click', async e => {
   } finally { btn.disabled = false; btn.textContent = 'Get'; }
 });
 q.addEventListener('input', render);
+document.getElementById('cp').addEventListener('click', async () => {
+  const link = new URL('versions-source.json', location.href).href;
+  try { await navigator.clipboard.writeText(link); say('Copied. Paste it in Benstore → Browse → +', 4000); }
+  catch { prompt('Copy this link:', link); }
+});
 fetch('update.json', {cache: 'no-store'}).then(r => r.json()).then(u => {
   latest = u.build;
   versions = (u.versions && u.versions.length ? u.versions : [u]).slice().sort((a, b) => b.build - a.build);

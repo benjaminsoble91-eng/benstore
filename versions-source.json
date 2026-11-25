@@ -1,0 +1,1388 @@
+{
+  "name": "Benstore Versions",
+  "identifier": "com.mymculture.benstore.versions",
+  "subtitle": "Every Benstore build, for downgrading",
+  "description": "Install any past Benstore build. It installs over Benstore like an update; use Update in Settings to go back to the newest.",
+  "sourceURL": "https://benjaminsoble91-eng.github.io/benstore/versions-source.json",
+  "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+  "tintColor": "FF7A1A",
+  "website": "https://benjaminsoble91-eng.github.io/benstore/versions.html",
+  "apps": [
+    {
+      "name": "Benstore 1.55 (latest)",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Latest · build 56",
+      "localizedDescription": "Auto-strip: if an app won't install because of something inside it (a broken extension, Watch app, App Clip, junk files, device-only limits), Benstore strips the parts it's choking on and retries automatically. Frameworks the app needs and your tweaks are never removed. Each step shows in the log.",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.55",
+      "versionDate": "2026-11-24T19:22:06-05:00",
+      "downloadURL": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+      "size": 1804567,
+      "versions": [
+        {
+          "version": "1.55",
+          "buildVersion": "56",
+          "date": "2026-11-24T19:22:06-05:00",
+          "downloadURL": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+          "size": 1804567,
+          "localizedDescription": "Auto-strip: if an app won't install because of something inside it (a broken extension, Watch app, App Clip, junk files, device-only limits), Benstore strips the parts it's choking on and retries automatically. Frameworks the app needs and your tweaks are never removed. Each step shows in the log.",
+          "sha256": "14f2771e6a52e1e21ba385d7bcfb3638fa6dbe0205bbb0c922e9e6f92019efb7",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.54",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 55",
+      "localizedDescription": "YouTube + Open Tweaks mod, tweak packages, Choose Decrypted IPA",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.54",
+      "versionDate": "2026-11-23T21:00:56-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/18463d7bfeb5053d69ed8352f9c08a5efe8a7d48/Benstore.ipa",
+      "size": 1767718,
+      "versions": [
+        {
+          "version": "1.54",
+          "buildVersion": "55",
+          "date": "2026-11-23T21:00:56-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/18463d7bfeb5053d69ed8352f9c08a5efe8a7d48/Benstore.ipa",
+          "size": 1767718,
+          "localizedDescription": "YouTube + Open Tweaks mod, tweak packages, Choose Decrypted IPA",
+          "sha256": "f3ac691194f14e3cfc76ddb3d7abd0a726a01f6f72e5db1a1a8cc69d4d28e121",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.53",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 54",
+      "localizedDescription": "Mod Sources (Settings → Modded), private release optional",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.53",
+      "versionDate": "2026-11-23T20:45:01-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/891cd79aacd4b6a7ed840cbba8fe2a9455b82752/Benstore.ipa",
+      "size": 1761570,
+      "versions": [
+        {
+          "version": "1.53",
+          "buildVersion": "54",
+          "date": "2026-11-23T20:45:01-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/891cd79aacd4b6a7ed840cbba8fe2a9455b82752/Benstore.ipa",
+          "size": 1761570,
+          "localizedDescription": "Mod Sources (Settings → Modded), private release optional",
+          "sha256": "cce6dc7a9d57d3cfea422703c43db7bc1f6648d39a6d511cb06f8f2d40dfe574",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.52",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 53",
+      "localizedDescription": "Sideload Fixes (BSFix) for every app + tweak loading for plain IPAs",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.52",
+      "versionDate": "2026-11-23T20:32:59-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1af8d162e5d2b5ca8da18d4fe8f2d39341439094/Benstore.ipa",
+      "size": 1752775,
+      "versions": [
+        {
+          "version": "1.52",
+          "buildVersion": "53",
+          "date": "2026-11-23T20:32:59-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1af8d162e5d2b5ca8da18d4fe8f2d39341439094/Benstore.ipa",
+          "size": 1752775,
+          "localizedDescription": "Sideload Fixes (BSFix) for every app + tweak loading for plain IPAs",
+          "sha256": "871c2229f2403d62efb8d7d206ee3f74410da7df446b07752aa1abcbaa88cfd1",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.51",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 52",
+      "localizedDescription": "Modded tab + mods.json catalog",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.51",
+      "versionDate": "2026-11-23T20:28:16-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/fc001291220ed1b24e1780550a39293168e14e1c/Benstore.ipa",
+      "size": 1745653,
+      "versions": [
+        {
+          "version": "1.51",
+          "buildVersion": "52",
+          "date": "2026-11-23T20:28:16-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/fc001291220ed1b24e1780550a39293168e14e1c/Benstore.ipa",
+          "size": 1745653,
+          "localizedDescription": "Modded tab + mods.json catalog",
+          "sha256": "75d90492f32965e3cd6f4ba0a5889c614258bbd95290435025a2901b407de4f4",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.50",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 51",
+      "localizedDescription": "Crash Log reads work with Experimental cellular mode",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.50",
+      "versionDate": "2026-11-23T20:14:48-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7dd7dd9405fe3fa30e7296642f2375c165ef4c91/Benstore.ipa",
+      "size": 1736541,
+      "versions": [
+        {
+          "version": "1.50",
+          "buildVersion": "51",
+          "date": "2026-11-23T20:14:48-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7dd7dd9405fe3fa30e7296642f2375c165ef4c91/Benstore.ipa",
+          "size": 1736541,
+          "localizedDescription": "Crash Log reads work with Experimental cellular mode",
+          "sha256": "95038421b7f15eafcb693ac91aea4789a404212612c7c5851d016455aa4690bf",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.49",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 50",
+      "localizedDescription": "Install/update Instagram + SCInsta from a private release",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.49",
+      "versionDate": "2026-11-23T20:02:19-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/9e66c2d85fc6aec3dec248dda7fa27cfbbba5c3c/Benstore.ipa",
+      "size": 1735958,
+      "versions": [
+        {
+          "version": "1.49",
+          "buildVersion": "50",
+          "date": "2026-11-23T20:02:19-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/9e66c2d85fc6aec3dec248dda7fa27cfbbba5c3c/Benstore.ipa",
+          "size": 1735958,
+          "localizedDescription": "Install/update Instagram + SCInsta from a private release",
+          "sha256": "30b7b036d335972801f871b4115caf951752fecde01e7256123c13acdeb1f109",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.48",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 49",
+      "localizedDescription": "Crash Log beta + SCInsta crash black box",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.48",
+      "versionDate": "2026-11-23T19:42:42-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/d15f88d6ea65587c7ca9dcc00b121712a22559d2/Benstore.ipa",
+      "size": 1723036,
+      "versions": [
+        {
+          "version": "1.48",
+          "buildVersion": "49",
+          "date": "2026-11-23T19:42:42-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/d15f88d6ea65587c7ca9dcc00b121712a22559d2/Benstore.ipa",
+          "size": 1723036,
+          "localizedDescription": "Crash Log beta + SCInsta crash black box",
+          "sha256": "f845917c24bbdf5eb44dec7f3c3a2dab7d85a28f89f4e6788f05db9877a6ae93",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.47",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 48",
+      "localizedDescription": "One-tap SCInsta tweak updates",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.47",
+      "versionDate": "2026-11-23T19:30:28-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/9a4c08ad9d3f5e49641a702d0aaf8a7d45587ec2/Benstore.ipa",
+      "size": 1718969,
+      "versions": [
+        {
+          "version": "1.47",
+          "buildVersion": "48",
+          "date": "2026-11-23T19:30:28-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/9a4c08ad9d3f5e49641a702d0aaf8a7d45587ec2/Benstore.ipa",
+          "size": 1718969,
+          "localizedDescription": "One-tap SCInsta tweak updates",
+          "sha256": "367ab1fd1115f4bf3146bb4c850e1a5f830d71cd7129a4f037c39613e4a4ed68",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.46",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 47",
+      "localizedDescription": "Fix custom icon seal (0xe8008017)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.46",
+      "versionDate": "2026-11-22T23:23:37-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6302755a15d8a253c328713a4e941bcff0a748eb/Benstore.ipa",
+      "size": 1710073,
+      "versions": [
+        {
+          "version": "1.46",
+          "buildVersion": "47",
+          "date": "2026-11-22T23:23:37-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6302755a15d8a253c328713a4e941bcff0a748eb/Benstore.ipa",
+          "size": 1710073,
+          "localizedDescription": "Fix custom icon seal (0xe8008017)",
+          "sha256": "d099be8a5ecc0c97d5a7b3114d4f3970016253a9a821f3866017d3ea3808e9a2",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.45",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 46",
+      "localizedDescription": "Custom app icons",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.45",
+      "versionDate": "2026-11-22T23:17:00-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/df232c589630de11c1de4a3b35a397ba8b6f01c2/Benstore.ipa",
+      "size": 1709694,
+      "versions": [
+        {
+          "version": "1.45",
+          "buildVersion": "46",
+          "date": "2026-11-22T23:17:00-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/df232c589630de11c1de4a3b35a397ba8b6f01c2/Benstore.ipa",
+          "size": 1709694,
+          "localizedDescription": "Custom app icons",
+          "sha256": "b5d37e6d9eed35f19c63f565d99d725ec82ae2944109f9516f341c0a6f89dacb",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.44",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 45",
+      "localizedDescription": "Count all dev-signed apps toward the slot limit; drop unreliable on-open install check",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.44",
+      "versionDate": "2026-11-22T19:26:57-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5a39c6033cabb3ed682cf6178121955f8905ebf3/Benstore.ipa",
+      "size": 1705770,
+      "versions": [
+        {
+          "version": "1.44",
+          "buildVersion": "45",
+          "date": "2026-11-22T19:26:57-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5a39c6033cabb3ed682cf6178121955f8905ebf3/Benstore.ipa",
+          "size": 1705770,
+          "localizedDescription": "Count all dev-signed apps toward the slot limit; drop unreliable on-open install check",
+          "sha256": "161bc246562e667b1fa7891f19a28ce628fac01ca6805ac64a402f513d20da0d",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.43",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 44",
+      "localizedDescription": "Delete App IDs from Settings",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.43",
+      "versionDate": "2026-11-22T19:22:31-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/34fc857f84685d7191b018f14406f1018a990b44/Benstore.ipa",
+      "size": 1705722,
+      "versions": [
+        {
+          "version": "1.43",
+          "buildVersion": "44",
+          "date": "2026-11-22T19:22:31-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/34fc857f84685d7191b018f14406f1018a990b44/Benstore.ipa",
+          "size": 1705722,
+          "localizedDescription": "Delete App IDs from Settings",
+          "sha256": "3d28b3124a60f59fbee882b999943876bca5391ee4674ff3f9320ac1e81ec638",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.42",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 43",
+      "localizedDescription": "Text-message 2FA option; Mac installer zip rebuilt every build",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.42",
+      "versionDate": "2026-11-22T19:13:46-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/975a99891bc370a93eae34cd00fd8b52be757dcd/Benstore.ipa",
+      "size": 1702969,
+      "versions": [
+        {
+          "version": "1.42",
+          "buildVersion": "43",
+          "date": "2026-11-22T19:13:46-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/975a99891bc370a93eae34cd00fd8b52be757dcd/Benstore.ipa",
+          "size": 1702969,
+          "localizedDescription": "Text-message 2FA option; Mac installer zip rebuilt every build",
+          "sha256": "9bad4901de630142a451727e6946409ad02ffdead732d693b8ca5a68d0e7c238",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.41",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 42",
+      "localizedDescription": "Fix update crash when the update was pre-downloaded",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.41",
+      "versionDate": "2026-11-22T19:08:59-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/bde40eaa044a6dfa36ecc8ce9d1606460d259f4b/Benstore.ipa",
+      "size": 1702478,
+      "versions": [
+        {
+          "version": "1.41",
+          "buildVersion": "42",
+          "date": "2026-11-22T19:08:59-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/bde40eaa044a6dfa36ecc8ce9d1606460d259f4b/Benstore.ipa",
+          "size": 1702478,
+          "localizedDescription": "Fix update crash when the update was pre-downloaded",
+          "sha256": "5e7ca84788c6d93bba59557c7d9e97340776815655c2496fb2aca1585de6014b",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.40",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 41",
+      "localizedDescription": "Certificate replace picker on iPhone; App IDs list without certificate",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.40",
+      "versionDate": "2026-11-22T19:04:30-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/0d5494b834745efa9355983d974e8879609f60e0/Benstore.ipa",
+      "size": 1702448,
+      "versions": [
+        {
+          "version": "1.40",
+          "buildVersion": "41",
+          "date": "2026-11-22T19:04:30-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/0d5494b834745efa9355983d974e8879609f60e0/Benstore.ipa",
+          "size": 1702448,
+          "localizedDescription": "Certificate replace picker on iPhone; App IDs list without certificate",
+          "sha256": "020bfabe6374c540e0050533d64d1fbe7e386043fcd9647d9e2f4c13a96764aa",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.39",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 40",
+      "localizedDescription": "Per-app Increased Memory Limit / Extended Virtual Addressing",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.39",
+      "versionDate": "2026-11-22T15:33:21-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5c8daad0f03b6fb9730af5de90bd330ce3f21edc/Benstore.ipa",
+      "size": 1702231,
+      "versions": [
+        {
+          "version": "1.39",
+          "buildVersion": "40",
+          "date": "2026-11-22T15:33:21-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5c8daad0f03b6fb9730af5de90bd330ce3f21edc/Benstore.ipa",
+          "size": 1702231,
+          "localizedDescription": "Per-app Increased Memory Limit / Extended Virtual Addressing",
+          "sha256": "9834ac301e852fec822d3765154fa137c482ec24db54da914d01c19f27126f6b",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.38",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 39",
+      "localizedDescription": "Log architectures and load dependencies when signing",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.38",
+      "versionDate": "2026-11-22T14:44:52-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b358bb384fca331596b9978785031164ae88221b/Benstore.ipa",
+      "size": 1698900,
+      "versions": [
+        {
+          "version": "1.38",
+          "buildVersion": "39",
+          "date": "2026-11-22T14:44:52-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b358bb384fca331596b9978785031164ae88221b/Benstore.ipa",
+          "size": 1698900,
+          "localizedDescription": "Log architectures and load dependencies when signing",
+          "sha256": "b8b8c31a7115251465a3a818583ef8066f1d8ead278634e14bbaec39ec8ab949",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.37",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 38",
+      "localizedDescription": "Don't re-sign binaries inside already-signed frameworks",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.37",
+      "versionDate": "2026-11-22T14:28:39-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1335fd1eead4bd7fca53b125e28f02eac8e4a2f9/Benstore.ipa",
+      "size": 1697827,
+      "versions": [
+        {
+          "version": "1.37",
+          "buildVersion": "38",
+          "date": "2026-11-22T14:28:39-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1335fd1eead4bd7fca53b125e28f02eac8e4a2f9/Benstore.ipa",
+          "size": 1697827,
+          "localizedDescription": "Don't re-sign binaries inside already-signed frameworks",
+          "sha256": "41f5f3adc0b8bb9ef474026d1af56121a559679a9d60e342ed9531ec710e044f",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.36",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 37",
+      "localizedDescription": "IOS-style resource seals for frameworks and dylibs (fixes 0xe8008001 on iOS 27)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.36",
+      "versionDate": "2026-11-22T14:20:06-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/0c770982ec558cd2fbcf11bc69133245f3ba31f2/Benstore.ipa",
+      "size": 1697767,
+      "versions": [
+        {
+          "version": "1.36",
+          "buildVersion": "37",
+          "date": "2026-11-22T14:20:06-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/0c770982ec558cd2fbcf11bc69133245f3ba31f2/Benstore.ipa",
+          "size": 1697767,
+          "localizedDescription": "IOS-style resource seals for frameworks and dylibs (fixes 0xe8008001 on iOS 27)",
+          "sha256": "68086bdd96592d1c0844afe1a192ee3f59befd261f16e3f32a25b3aabe580879",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.35",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 36",
+      "localizedDescription": "Use Backup Apple ID (prefer backup for new installs)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.35",
+      "versionDate": "2026-11-22T13:38:10-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/cede4ef49badb9eb29037e1536348a90af800f6a/Benstore.ipa",
+      "size": 1698055,
+      "versions": [
+        {
+          "version": "1.35",
+          "buildVersion": "36",
+          "date": "2026-11-22T13:38:10-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/cede4ef49badb9eb29037e1536348a90af800f6a/Benstore.ipa",
+          "size": 1698055,
+          "localizedDescription": "Use Backup Apple ID (prefer backup for new installs)",
+          "sha256": "dd3f71af89c2090267e64b336ee0e35c786baf3549696e9ee35f22a4a7739edc",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.34",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 35",
+      "localizedDescription": "Use Backups Automatically switch",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.34",
+      "versionDate": "2026-11-22T13:34:02-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/3ddcbcfba13766f9d83185cf66ea38073c5f9c2e/Benstore.ipa",
+      "size": 1697601,
+      "versions": [
+        {
+          "version": "1.34",
+          "buildVersion": "35",
+          "date": "2026-11-22T13:34:02-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/3ddcbcfba13766f9d83185cf66ea38073c5f9c2e/Benstore.ipa",
+          "size": 1697601,
+          "localizedDescription": "Use Backups Automatically switch",
+          "sha256": "043d897ec8173824c494484859e2a4080f42fa67c1ce211a666c4ce730c8fccd",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.33",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 34",
+      "localizedDescription": "Detect deleted apps on-device and on every connection",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.33",
+      "versionDate": "2026-11-22T09:45:52-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/09158965dab3fb713d50728f1302da7ed1d555e7/Benstore.ipa",
+      "size": 1697514,
+      "versions": [
+        {
+          "version": "1.33",
+          "buildVersion": "34",
+          "date": "2026-11-22T09:45:52-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/09158965dab3fb713d50728f1302da7ed1d555e7/Benstore.ipa",
+          "size": 1697514,
+          "localizedDescription": "Detect deleted apps on-device and on every connection",
+          "sha256": "aaedafc9f939c35b7d1399538185078b066e14bd1bf23fb3db9689bd37abaf37",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.32",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 33",
+      "localizedDescription": "Shelve apps that were deleted from the phone",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.32",
+      "versionDate": "2026-11-22T09:37:50-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/db44e940cc669c5d52123c5dd112daed08438904/Benstore.ipa",
+      "size": 1695904,
+      "versions": [
+        {
+          "version": "1.32",
+          "buildVersion": "33",
+          "date": "2026-11-22T09:37:50-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/db44e940cc669c5d52123c5dd112daed08438904/Benstore.ipa",
+          "size": 1695904,
+          "localizedDescription": "Shelve apps that were deleted from the phone",
+          "sha256": "27e8758f81704e3e9173c2dcd5ea73a62e46e6c2c745a731f4f3f3e2f5b6b119",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.31",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 32",
+      "localizedDescription": "Park error diagnosis",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.31",
+      "versionDate": "2026-11-22T09:34:39-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/df9aaa8578b69262bda44f50218e825f3c8b6877/Benstore.ipa",
+      "size": 1693358,
+      "versions": [
+        {
+          "version": "1.31",
+          "buildVersion": "32",
+          "date": "2026-11-22T09:34:39-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/df9aaa8578b69262bda44f50218e825f3c8b6877/Benstore.ipa",
+          "size": 1693358,
+          "localizedDescription": "Park error diagnosis",
+          "sha256": "f9e43aff317a133ad08a8493be6d019515c87ca2fc53c472c5d95385b3758c9e",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.30",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 31",
+      "localizedDescription": "Resolve installed bundle IDs from the device before park/remove/refresh",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.30",
+      "versionDate": "2026-11-22T09:31:10-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/299250aee31e4b8d66dab36e36e32d02865dc264/Benstore.ipa",
+      "size": 1692083,
+      "versions": [
+        {
+          "version": "1.30",
+          "buildVersion": "31",
+          "date": "2026-11-22T09:31:10-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/299250aee31e4b8d66dab36e36e32d02865dc264/Benstore.ipa",
+          "size": 1692083,
+          "localizedDescription": "Resolve installed bundle IDs from the device before park/remove/refresh",
+          "sha256": "5865ef520ff4d17ee5518ec29ff2f80986fd3167fa8fe4e7ceea8363e7d5bf08",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.29",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 30",
+      "localizedDescription": "Self-update hands off to iOS instead of hanging",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.29",
+      "versionDate": "2026-11-22T09:28:19-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c4339160a8e05df1d8bf23129c6295566a111ccc/Benstore.ipa",
+      "size": 1691436,
+      "versions": [
+        {
+          "version": "1.29",
+          "buildVersion": "30",
+          "date": "2026-11-22T09:28:19-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c4339160a8e05df1d8bf23129c6295566a111ccc/Benstore.ipa",
+          "size": 1691436,
+          "localizedDescription": "Self-update hands off to iOS instead of hanging",
+          "sha256": "c8ba5c2b180ebf496354264f9604768dd320a9835def2b4caf6dfd95e09e8892",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.28",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 29",
+      "localizedDescription": "Cellular park/unpark/remove, background time and notifications for updates",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.28",
+      "versionDate": "2026-11-22T09:23:05-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/f53a26e5ae63876e9a7ff3b55b4b20c93a5cdaf8/Benstore.ipa",
+      "size": 1690956,
+      "versions": [
+        {
+          "version": "1.28",
+          "buildVersion": "29",
+          "date": "2026-11-22T09:23:05-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/f53a26e5ae63876e9a7ff3b55b4b20c93a5cdaf8/Benstore.ipa",
+          "size": 1690956,
+          "localizedDescription": "Cellular park/unpark/remove, background time and notifications for updates",
+          "sha256": "559eb010e65a57f25741f7440ee6bb0e1b986dea5598f08a86fde2691299e728",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.27",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 28",
+      "localizedDescription": "Park and unpark apps with their data",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.27",
+      "versionDate": "2026-11-22T09:15:39-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/98ef2ab9d3f352febf088bfc4f0fc973b72d801d/Benstore.ipa",
+      "size": 1690130,
+      "versions": [
+        {
+          "version": "1.27",
+          "buildVersion": "28",
+          "date": "2026-11-22T09:15:39-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/98ef2ab9d3f352febf088bfc4f0fc973b72d801d/Benstore.ipa",
+          "size": 1690130,
+          "localizedDescription": "Park and unpark apps with their data",
+          "sha256": "6fb7d4cf69d1072028c610c1bdcc4bee48c7e512c2dc8c66a270448b12c8e7ff",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.26",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 27",
+      "localizedDescription": "Per-device slot meter, show other sideloaders' apps, background scan",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.26",
+      "versionDate": "2026-11-22T09:06:33-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1f1d9b226ebd9b306952f41f660da8c41bf99981/Benstore.ipa",
+      "size": 1663343,
+      "versions": [
+        {
+          "version": "1.26",
+          "buildVersion": "27",
+          "date": "2026-11-22T09:06:33-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1f1d9b226ebd9b306952f41f660da8c41bf99981/Benstore.ipa",
+          "size": 1663343,
+          "localizedDescription": "Per-device slot meter, show other sideloaders' apps, background scan",
+          "sha256": "231c6050e13c5e6d763dae86ee89ad93e99fba3898d40c00a9cb89c3ee569f9a",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.25",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 26",
+      "localizedDescription": "Count apps from other sideloaders in the slot meter",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.25",
+      "versionDate": "2026-11-22T08:57:56-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/237c80c170cbb73a9f0673137145340f5a4271ac/Benstore.ipa",
+      "size": 1661279,
+      "versions": [
+        {
+          "version": "1.25",
+          "buildVersion": "26",
+          "date": "2026-11-22T08:57:56-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/237c80c170cbb73a9f0673137145340f5a4271ac/Benstore.ipa",
+          "size": 1661279,
+          "localizedDescription": "Count apps from other sideloaders in the slot meter",
+          "sha256": "6d84622a8847c9708478c6bcefcf62b3a8c4ac8360312bcc05ae66a07f2de41e",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.24",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 25",
+      "localizedDescription": "Use backup Apple IDs automatically",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.24",
+      "versionDate": "2026-11-22T08:54:59-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b1c2ee01c6a9025ed7777a11e7016329bb69207d/Benstore.ipa",
+      "size": 1659219,
+      "versions": [
+        {
+          "version": "1.24",
+          "buildVersion": "25",
+          "date": "2026-11-22T08:54:59-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b1c2ee01c6a9025ed7777a11e7016329bb69207d/Benstore.ipa",
+          "size": 1659219,
+          "localizedDescription": "Use backup Apple IDs automatically",
+          "sha256": "df81fc5f710e9722dc1cedcfe1e44380e349f31562302777aeb0753c6e968a7a",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.23",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 24",
+      "localizedDescription": "Catch iOS 27 app-limit error, offer non-Benstore apps",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.23",
+      "versionDate": "2026-11-22T08:52:23-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7c230ccc47d458aee896815acab9382985940246/Benstore.ipa",
+      "size": 1658792,
+      "versions": [
+        {
+          "version": "1.23",
+          "buildVersion": "24",
+          "date": "2026-11-22T08:52:23-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7c230ccc47d458aee896815acab9382985940246/Benstore.ipa",
+          "size": 1658792,
+          "localizedDescription": "Catch iOS 27 app-limit error, offer non-Benstore apps",
+          "sha256": "246b585e12aa25483e8668fa4d05c5527c28976553fa40e29dc9a1cb35544ec1",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.22",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 23",
+      "localizedDescription": "Plain Settings rows",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.22",
+      "versionDate": "2026-11-22T08:48:18-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6cb0cb16a7481f50fbcba360cf3fc049b4c4a709/Benstore.ipa",
+      "size": 1657479,
+      "versions": [
+        {
+          "version": "1.22",
+          "buildVersion": "23",
+          "date": "2026-11-22T08:48:18-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6cb0cb16a7481f50fbcba360cf3fc049b4c4a709/Benstore.ipa",
+          "size": 1657479,
+          "localizedDescription": "Plain Settings rows",
+          "sha256": "b9bfa01d9e30771b20a0b1783037d35edeadc42d4e6fb4e4934dcc4584a8aab5",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.21",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 22",
+      "localizedDescription": "UI polish",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.21",
+      "versionDate": "2026-11-22T08:41:06-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/89e7074af93a62f7bbf5d85db7e545c7ec92b20b/Benstore.ipa",
+      "size": 1657810,
+      "versions": [
+        {
+          "version": "1.21",
+          "buildVersion": "22",
+          "date": "2026-11-22T08:41:06-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/89e7074af93a62f7bbf5d85db7e545c7ec92b20b/Benstore.ipa",
+          "size": 1657810,
+          "localizedDescription": "UI polish",
+          "sha256": "e7e3c8a47e12ba1e918bde913523d97a24bbd782af876599b6b1bdff1b3473bd",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.20",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 21",
+      "localizedDescription": "Optional Sources (Browse tab)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.20",
+      "versionDate": "2026-11-22T08:16:36-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/62740f80f4f9f53ad5afaf0a82fffa25d08e920c/Benstore.ipa",
+      "size": 1643481,
+      "versions": [
+        {
+          "version": "1.20",
+          "buildVersion": "21",
+          "date": "2026-11-22T08:16:36-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/62740f80f4f9f53ad5afaf0a82fffa25d08e920c/Benstore.ipa",
+          "size": 1643481,
+          "localizedDescription": "Optional Sources (Browse tab)",
+          "sha256": "c45b68c454e7b8224f7bb704507061cea9e3be76dd9a7a4ac2c7f966f30a0f95",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.19",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 20",
+      "localizedDescription": "Never leave cellular data off after a self-update",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.19",
+      "versionDate": "2026-11-22T07:59:58-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b6df7fe05f05734839753a7c43743f5787251319/Benstore.ipa",
+      "size": 1631713,
+      "versions": [
+        {
+          "version": "1.19",
+          "buildVersion": "20",
+          "date": "2026-11-22T07:59:58-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b6df7fe05f05734839753a7c43743f5787251319/Benstore.ipa",
+          "size": 1631713,
+          "localizedDescription": "Never leave cellular data off after a self-update",
+          "sha256": "503330354c446041c4a7d27edc6c8131f23daae5dd5333b87414354d37b63a5a",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.18",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 19",
+      "localizedDescription": "App ID tracker",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.18",
+      "versionDate": "2026-11-22T07:56:39-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/f0f0ab35c9a9910ab7692d2c9a5d7bae6589eff8/Benstore.ipa",
+      "size": 1631006,
+      "versions": [
+        {
+          "version": "1.18",
+          "buildVersion": "19",
+          "date": "2026-11-22T07:56:39-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/f0f0ab35c9a9910ab7692d2c9a5d7bae6589eff8/Benstore.ipa",
+          "size": 1631006,
+          "localizedDescription": "App ID tracker",
+          "sha256": "9f4e9c8f9601b2c3539a4c4aef71466a67fca233ba5503b1a2fa6bf263621153",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.17",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 18",
+      "localizedDescription": "Cellular installs via brief data-off (guided or Shortcuts)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.17",
+      "versionDate": "2026-11-21T23:51:09-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6c2ed5abe0cdc1d430745cba7cf280c4ffadf23b/Benstore.ipa",
+      "size": 1627375,
+      "versions": [
+        {
+          "version": "1.17",
+          "buildVersion": "18",
+          "date": "2026-11-21T23:51:09-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6c2ed5abe0cdc1d430745cba7cf280c4ffadf23b/Benstore.ipa",
+          "size": 1627375,
+          "localizedDescription": "Cellular installs via brief data-off (guided or Shortcuts)",
+          "sha256": "0011a845142fc3eaeaab776a7595c6bce9455c0afb18b867f49481da05504d39",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.16",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 17",
+      "localizedDescription": "Smaller binaries, update prefetch, safe sign-in, cellular probing",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.16",
+      "versionDate": "2026-11-21T23:35:58-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/cc1d84b009f549f4e87fc133e99b42068616704d/Benstore.ipa",
+      "size": 1622430,
+      "versions": [
+        {
+          "version": "1.16",
+          "buildVersion": "17",
+          "date": "2026-11-21T23:35:58-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/cc1d84b009f549f4e87fc133e99b42068616704d/Benstore.ipa",
+          "size": 1622430,
+          "localizedDescription": "Smaller binaries, update prefetch, safe sign-in, cellular probing",
+          "sha256": "bc840198000948241784ca98a4179c5be767936d18e8d456593053ea45c69256",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.15",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 16",
+      "localizedDescription": "Experimental wording",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.15",
+      "versionDate": "2026-11-21T23:27:23-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/8a6b13b4e8fc2f25b7bbd5ebe769142c33464547/Benstore.ipa",
+      "size": 4565249,
+      "versions": [
+        {
+          "version": "1.15",
+          "buildVersion": "16",
+          "date": "2026-11-21T23:27:23-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/8a6b13b4e8fc2f25b7bbd5ebe769142c33464547/Benstore.ipa",
+          "size": 4565249,
+          "localizedDescription": "Experimental wording",
+          "sha256": "3ff63c6af68015303f520deafc686d9b000b2e1eb842b70ae0ccc5bb61131899",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.14",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 15",
+      "localizedDescription": "Experimental cellular installs (pin to VPN interface)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.14",
+      "versionDate": "2026-11-21T23:25:38-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/03acf881f84f2af0d8b21b47c37541ab2600faef/Benstore.ipa",
+      "size": 4564786,
+      "versions": [
+        {
+          "version": "1.14",
+          "buildVersion": "15",
+          "date": "2026-11-21T23:25:38-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/03acf881f84f2af0d8b21b47c37541ab2600faef/Benstore.ipa",
+          "size": 4564786,
+          "localizedDescription": "Experimental cellular installs (pin to VPN interface)",
+          "sha256": "974c7db7167d6dfa0416734b1c5ab3f47c52115e0e7993971b5e5f02919063b2",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.13",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 14",
+      "localizedDescription": "Beta tag on backup IDs; correct message on cellular",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.13",
+      "versionDate": "2026-11-21T23:19:19-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/94c1fcdb0321b4fb7068a90ccf7cb577427df44d/Benstore.ipa",
+      "size": 4564186,
+      "versions": [
+        {
+          "version": "1.13",
+          "buildVersion": "14",
+          "date": "2026-11-21T23:19:19-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/94c1fcdb0321b4fb7068a90ccf7cb577427df44d/Benstore.ipa",
+          "size": 4564186,
+          "localizedDescription": "Beta tag on backup IDs; correct message on cellular",
+          "sha256": "236ca32c012d08589ee672c90c1753b3f2513fc159766714206ccd5304a22e25",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.12",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 13",
+      "localizedDescription": "Backup Apple IDs",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.12",
+      "versionDate": "2026-11-21T23:13:13-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/a9ce8cd23b3293bf447afc1ca68579c1c6abd2c5/Benstore.ipa",
+      "size": 4564066,
+      "versions": [
+        {
+          "version": "1.12",
+          "buildVersion": "13",
+          "date": "2026-11-21T23:13:13-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/a9ce8cd23b3293bf447afc1ca68579c1c6abd2c5/Benstore.ipa",
+          "size": 4564066,
+          "localizedDescription": "Backup Apple IDs",
+          "sha256": "c3ede6e77d1d44de57d3a6e6e694ab94b1d1ef0d7296a634dd78c904be1e0e2c",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.11",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 12",
+      "localizedDescription": "Swap-out picker at the 3-app limit",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.11",
+      "versionDate": "2026-11-21T23:08:28-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/94b91357977442c32b158fc5ab26006db82a1f16/Benstore.ipa",
+      "size": 4557285,
+      "versions": [
+        {
+          "version": "1.11",
+          "buildVersion": "12",
+          "date": "2026-11-21T23:08:28-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/94b91357977442c32b158fc5ab26006db82a1f16/Benstore.ipa",
+          "size": 4557285,
+          "localizedDescription": "Swap-out picker at the 3-app limit",
+          "sha256": "19baba7a6c1feba2267bb5c7d3ab3f71ee4ca0e3aaa072c33f74edf4c8098a9b",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.10",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 11",
+      "localizedDescription": "IOS 27 RemotePairing order (verify before setup, one connection)",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.10",
+      "versionDate": "2026-11-21T23:02:19-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/38b90bb971b3d9df7f10686082e9b0cf0b1de024/Benstore.ipa",
+      "size": 4555864,
+      "versions": [
+        {
+          "version": "1.10",
+          "buildVersion": "11",
+          "date": "2026-11-21T23:02:19-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/38b90bb971b3d9df7f10686082e9b0cf0b1de024/Benstore.ipa",
+          "size": 4555864,
+          "localizedDescription": "IOS 27 RemotePairing order (verify before setup, one connection)",
+          "sha256": "db4aa5ac0e8844516f2a3344e3de1581f6825f0643a078d224f367e65818b6bf",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.9",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 10",
+      "localizedDescription": "Fixes from 5-agent review; unique RemotePairing label",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.9",
+      "versionDate": "2026-11-21T22:50:39-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/2a881b46b8ed93cebe5bed7899114853b1bdda53/Benstore.ipa",
+      "size": 4556504,
+      "versions": [
+        {
+          "version": "1.9",
+          "buildVersion": "10",
+          "date": "2026-11-21T22:50:39-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/2a881b46b8ed93cebe5bed7899114853b1bdda53/Benstore.ipa",
+          "size": 4556504,
+          "localizedDescription": "Fixes from 5-agent review; unique RemotePairing label",
+          "sha256": "66532c8712c415f019d6446431316d11f91046368c7e227d04a1319c876b6b7a",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.8",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 9",
+      "localizedDescription": "Idevice debug log for wireless pairing; 60s limit",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.8",
+      "versionDate": "2026-11-21T22:35:39-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c12b60c29760001fb277285285670143becb3959/Benstore.ipa",
+      "size": 4552770,
+      "versions": [
+        {
+          "version": "1.8",
+          "buildVersion": "9",
+          "date": "2026-11-21T22:35:39-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c12b60c29760001fb277285285670143becb3959/Benstore.ipa",
+          "size": 4552770,
+          "localizedDescription": "Idevice debug log for wireless pairing; 60s limit",
+          "sha256": "0eb91651c6ae8499dd804bdcebd6a0901e5aacaa6875fd3a257a9061fbada50f",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.7",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 8",
+      "localizedDescription": "Faster re-runs (sign cache, pairing reuse), step timings",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.7",
+      "versionDate": "2026-11-21T22:24:25-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/4be158e82e90cf29f964e51095aec83408368b58/Benstore.ipa",
+      "size": 4553194,
+      "versions": [
+        {
+          "version": "1.7",
+          "buildVersion": "8",
+          "date": "2026-11-21T22:24:25-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/4be158e82e90cf29f964e51095aec83408368b58/Benstore.ipa",
+          "size": 4553194,
+          "localizedDescription": "Faster re-runs (sign cache, pairing reuse), step timings",
+          "sha256": "4b8b1839050549698b11be0633da146536ca99134988c629b5c83f26bf5959b6",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.6",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 7",
+      "localizedDescription": "Handshake before RemotePairing; no VPN pairing",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.6",
+      "versionDate": "2026-11-21T22:19:40-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/954a2fa87f5734b5f89b6af0c408e0c1c6f18d8c/Benstore.ipa",
+      "size": 4551525,
+      "versions": [
+        {
+          "version": "1.6",
+          "buildVersion": "7",
+          "date": "2026-11-21T22:19:40-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/954a2fa87f5734b5f89b6af0c408e0c1c6f18d8c/Benstore.ipa",
+          "size": 4551525,
+          "localizedDescription": "Handshake before RemotePairing; no VPN pairing",
+          "sha256": "22cef28101b3b1669dd0a3f7c36964832ce0370f23c73c35e2d547ef48651e3c",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.5",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 6",
+      "localizedDescription": "Discover RemotePairing port via Bonjour",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.5",
+      "versionDate": "2026-11-21T22:09:06-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1b690d9d5526d38ee7d2a3aec95cb40f8060abe4/Benstore.ipa",
+      "size": 4551702,
+      "versions": [
+        {
+          "version": "1.5",
+          "buildVersion": "6",
+          "date": "2026-11-21T22:09:06-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1b690d9d5526d38ee7d2a3aec95cb40f8060abe4/Benstore.ipa",
+          "size": 4551702,
+          "localizedDescription": "Discover RemotePairing port via Bonjour",
+          "sha256": "4e430821912878cbf52c7a46e95051d061cc8ccf4520708e59bf6f5034abf8ac",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.4",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 5",
+      "localizedDescription": "On-iPhone RemotePairing fallback, no hang after Trust",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.4",
+      "versionDate": "2026-11-21T21:59:12-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5926a238d3f8cf6db24fc27fd3f001cca8bb8d34/Benstore.ipa",
+      "size": 4548930,
+      "versions": [
+        {
+          "version": "1.4",
+          "buildVersion": "5",
+          "date": "2026-11-21T21:59:12-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5926a238d3f8cf6db24fc27fd3f001cca8bb8d34/Benstore.ipa",
+          "size": 4548930,
+          "localizedDescription": "On-iPhone RemotePairing fallback, no hang after Trust",
+          "sha256": "c91cab3b919b12aa2e24693ff11bfee79c45077929a952495c53da7cda4353ac",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.3",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 4",
+      "localizedDescription": "RemotePairing for iOS 26.4+",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.3",
+      "versionDate": "2026-11-21T21:47:41-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6988af7828455193803588005a0469d3455a31f4/Benstore.ipa",
+      "size": 4549085,
+      "versions": [
+        {
+          "version": "1.3",
+          "buildVersion": "4",
+          "date": "2026-11-21T21:47:41-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6988af7828455193803588005a0469d3455a31f4/Benstore.ipa",
+          "size": 4549085,
+          "localizedDescription": "RemotePairing for iOS 26.4+",
+          "sha256": "ce49fa1be20964f763f774efb20f04b82230d99425e29e3cff9e91e1b717e8ea",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.2",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 3",
+      "localizedDescription": "Separate iPhone pairing for LocalDevVPN, auto-reconnect",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.2",
+      "versionDate": "2026-11-21T21:35:08-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7cca0fb24b6977d31940ac131efba208b6f87e40/Benstore.ipa",
+      "size": 1185695,
+      "versions": [
+        {
+          "version": "1.2",
+          "buildVersion": "3",
+          "date": "2026-11-21T21:35:08-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7cca0fb24b6977d31940ac131efba208b6f87e40/Benstore.ipa",
+          "size": 1185695,
+          "localizedDescription": "Separate iPhone pairing for LocalDevVPN, auto-reconnect",
+          "sha256": "20c8d9e7bf075014c84c168f406c5d70d2c93123a8ac1e5eabadf1d7d1336749",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Benstore 1.1",
+      "bundleIdentifier": "com.mymculture.benstore",
+      "developerName": "MYM Culture",
+      "subtitle": "Downgrade · build 2",
+      "localizedDescription": "One-tap updates, certificate fixes",
+      "iconURL": "https://benjaminsoble91-eng.github.io/benstore/icon.png",
+      "tintColor": "FF7A1A",
+      "version": "1.1",
+      "versionDate": "2026-11-21T21:15:57-05:00",
+      "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/02fc2eaad9da77307f49b2d31162eb55f4b95a55/Benstore.ipa",
+      "size": 1183983,
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-11-21T21:15:57-05:00",
+          "downloadURL": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/02fc2eaad9da77307f49b2d31162eb55f4b95a55/Benstore.ipa",
+          "size": 1183983,
+          "localizedDescription": "One-tap updates, certificate fixes",
+          "sha256": "39b466e2f021ec7b88cb38a9bcaf5bb1d6af18bef0db66e7a0549ae5f7099237",
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
