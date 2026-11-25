@@ -1,10 +1,10 @@
 {
-  "version": "1.57",
-  "build": 58,
-  "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings \u2192 Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
+  "version": "1.58",
+  "build": 59,
+  "notes": "Fix: App Groups and Auto-strip now find the app's files (1.55-1.57 looked in the wrong folder, so neither kicked in). The log now says exactly what happened with App Groups.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "d039b252ae5156a534eae0013efd5a892a375640dbe2d046262340d3b145e75a"
+    "sha256": "d41630866306c15194d27e622ef8850b3647e912764a890eeed19538a7f1e73f"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,19 +13,34 @@
   },
   "versions": [
     {
-      "version": "1.57",
-      "build": 58,
-      "date": "2026-11-25T10:15:00-05:00",
-      "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings \u2192 Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
+      "version": "1.58",
+      "build": 59,
+      "date": "2026-11-25T10:35:00-05:00",
+      "notes": "Fix: App Groups and Auto-strip now find the app's files (1.55-1.57 looked in the wrong folder, so neither kicked in). The log now says exactly what happened with App Groups.",
       "ios": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-        "sha256": "d039b252ae5156a534eae0013efd5a892a375640dbe2d046262340d3b145e75a",
-        "size": 1817441
+        "sha256": "d41630866306c15194d27e622ef8850b3647e912764a890eeed19538a7f1e73f",
+        "size": 1818136
       },
       "mac": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
         "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
         "build": 47
+      }
+    },
+    {
+      "version": "1.57",
+      "build": 58,
+      "date": "2026-11-25T10:15:00-05:00",
+      "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings \u2192 Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
+      "ios": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/731a4ea8c329c63ce59e2c784f7b38460c15761f/Benstore.ipa",
+        "sha256": "d039b252ae5156a534eae0013efd5a892a375640dbe2d046262340d3b145e75a",
+        "size": 1817441
+      },
+      "mac": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/731a4ea8c329c63ce59e2c784f7b38460c15761f/Benstore-Installer.zip",
+        "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d"
       }
     },
     {
