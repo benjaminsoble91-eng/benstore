@@ -1,10 +1,10 @@
 {
-  "version": "1.59",
-  "build": 60,
-  "notes": "App Groups fix for free Apple IDs: turn on App Groups the way AltStore does (only that feature), with a fallback to Apple's newer API.",
+  "version": "1.60",
+  "build": 61,
+  "notes": "Refresh applies App Groups: refreshing an app re-signs it fully when its signature is missing its groups, so you don't need to delete and reinstall.",
   "ios": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-    "sha256": "a756c595aae025dbd0900db5951db22ace17ce14df978a35c04a38f98eb52569"
+    "sha256": "defbfa7a172a1f4e0a4c8ea00aedec9c9ab8632c24f3b06c4b6ed6d22a7717a6"
   },
   "mac": {
     "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,19 +13,34 @@
   },
   "versions": [
     {
-      "version": "1.59",
-      "build": 60,
-      "date": "2026-11-25T10:40:00-05:00",
-      "notes": "App Groups fix for free Apple IDs: turn on App Groups the way AltStore does (only that feature), with a fallback to Apple's newer API.",
+      "version": "1.60",
+      "build": 61,
+      "date": "2026-11-25T10:30:00-05:00",
+      "notes": "Refresh applies App Groups: refreshing an app re-signs it fully when its signature is missing its groups, so you don't need to delete and reinstall.",
       "ios": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-        "sha256": "a756c595aae025dbd0900db5951db22ace17ce14df978a35c04a38f98eb52569",
-        "size": 1820286
+        "sha256": "defbfa7a172a1f4e0a4c8ea00aedec9c9ab8632c24f3b06c4b6ed6d22a7717a6",
+        "size": 1821109
       },
       "mac": {
         "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
         "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
         "build": 47
+      }
+    },
+    {
+      "version": "1.59",
+      "build": 60,
+      "date": "2026-11-25T10:40:00-05:00",
+      "notes": "App Groups fix for free Apple IDs: turn on App Groups the way AltStore does (only that feature), with a fallback to Apple's newer API.",
+      "ios": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c644f9c7a3df5a1346ec4496f9a1458dc2cf4c3f/Benstore.ipa",
+        "sha256": "a756c595aae025dbd0900db5951db22ace17ce14df978a35c04a38f98eb52569",
+        "size": 1820286
+      },
+      "mac": {
+        "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c644f9c7a3df5a1346ec4496f9a1458dc2cf4c3f/Benstore-Installer.zip",
+        "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d"
       }
     },
     {
