@@ -1,10 +1,10 @@
 {
- "version": "1.67",
- "build": "68/x",
- "notes": "Remote installs now has an off switch (Settings → Remote installs). It's on by default. Off means this iPhone stops showing up in your admin panel and ignores every request.",
+ "version": "1.68",
+ "build": "69/x",
+ "notes": "New admin panel: every phone with Benstore shows up with its model, iOS version and Benstore version, and you can install an app on any of them. While Benstore is open it now checks for requests every 15 seconds.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "ff2058fbb5f02ee093b352ecb870910cc7511b0bbb14a54337ca06a598afaa50"
+  "sha256": "fb10e90ea5feea86aa460ee8c26d6cb4021682c73b68e1554aa537b40ebb179c"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.68",
+   "build": 69,
+   "date": "2026-11-26T14:50:12-05:00",
+   "notes": "New admin panel: every phone with Benstore shows up with its model, iOS version and Benstore version, and you can install an app on any of them. While Benstore is open it now checks for requests every 15 seconds.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "fb10e90ea5feea86aa460ee8c26d6cb4021682c73b68e1554aa537b40ebb179c",
+    "size": 2146746
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.67",
    "build": 68,
    "date": "2026-11-26T14:46:36-05:00",
    "notes": "Remote installs now has an off switch (Settings → Remote installs). It's on by default. Off means this iPhone stops showing up in your admin panel and ignores every request.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/3b12b23f3ad40264ff0819d903a54e4c347a45d2/Benstore.ipa",
     "sha256": "ff2058fbb5f02ee093b352ecb870910cc7511b0bbb14a54337ca06a598afaa50",
     "size": 2145559
    },

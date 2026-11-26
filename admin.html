@@ -5,108 +5,196 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Benstore Admin</title>
 <style>
-  :root{ --o:#ff9429; --o2:#ff7a00; --bg:#0f0f12; --card:#1b1b20; --card2:#232329;
-         --tx:#f3f3f5; --dim:#9a9aa6; --line:#2d2d35; --ok:#39c26b; --bad:#ff5d5d; }
+  :root{ --o:#ff9429; --o2:#ff7a00; --bg:#0c0c0f; --card:#17171c; --card2:#202027; --card3:#2a2a33;
+         --tx:#f3f3f5; --dim:#9a9aa6; --dim2:#6b6b76; --line:#2a2a32; --ok:#39c26b; --bad:#ff5d5d; --warn:#f5b041; }
   *{box-sizing:border-box} html,body{margin:0}
-  body{font:16px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro",Segoe UI,Roboto,sans-serif;
-       background:var(--bg); color:var(--tx); padding:max(16px,env(safe-area-inset-top)) 16px 40px;
-       max-width:640px; margin:0 auto; -webkit-text-size-adjust:100%}
-  h1{font-size:22px; margin:4px 0 2px; display:flex; align-items:center; gap:9px}
-  h1 .k{width:22px;height:22px;flex:0 0 22px}
-  .sub{color:var(--dim); margin:0 0 18px; font-size:13px}
-  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin:12px 0}
-  .card h2{font-size:13px; letter-spacing:.06em; text-transform:uppercase; color:var(--dim); margin:0 0 12px}
-  label{display:block; font-size:13px; color:var(--dim); margin:12px 0 5px}
-  input,select{width:100%; background:var(--card2); border:1px solid var(--line); color:var(--tx);
-       border-radius:11px; padding:12px 13px; font-size:16px; outline:none}
-  input:focus,select:focus{border-color:var(--o)}
-  button{appearance:none; border:0; border-radius:12px; font-size:16px; font-weight:600;
-       padding:13px 16px; color:#241300; background:linear-gradient(180deg,var(--o),var(--o2));
-       width:100%; margin-top:16px}
-  button:disabled{opacity:.45}
+  body{font:15px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text",Segoe UI,Roboto,sans-serif;
+       background:var(--bg); color:var(--tx); -webkit-text-size-adjust:100%}
+  .wrap{max-width:1080px; margin:0 auto; padding:max(18px,env(safe-area-inset-top)) 18px 48px}
+  header{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px; flex-wrap:wrap}
+  .brand{display:flex; align-items:center; gap:11px}
+  .brand .logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(140deg,var(--o),var(--o2));
+       display:grid;place-items:center;flex:0 0 38px}
+  .brand h1{font-size:20px;margin:0;line-height:1.1} .brand p{margin:2px 0 0;color:var(--dim);font-size:12.5px}
+  .chip{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;padding:6px 11px;border-radius:999px;
+       background:var(--card);border:1px solid var(--line);color:var(--dim)}
+  .chip b{color:var(--tx);font-weight:600}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--dim2);flex:0 0 8px}
+  .dot.on{background:var(--ok);box-shadow:0 0 0 3px rgba(57,194,107,.18)}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; margin:0 0 16px}
+  .card h2{font-size:12px; letter-spacing:.07em; text-transform:uppercase; color:var(--dim); margin:0 0 14px;
+       display:flex;align-items:center;justify-content:space-between;gap:10px}
+  label{display:block; font-size:12.5px; color:var(--dim); margin:14px 0 6px}
+  input{width:100%; background:var(--card2); border:1px solid var(--line); color:var(--tx);
+       border-radius:11px; padding:12px 13px; font-size:15px; outline:none; font-family:inherit}
+  input:focus{border-color:var(--o)}
+  button{appearance:none; border:0; border-radius:12px; font-size:15px; font-weight:600; cursor:pointer;
+       padding:12px 16px; color:#241300; background:linear-gradient(180deg,var(--o),var(--o2)); font-family:inherit}
+  button:disabled{opacity:.4;cursor:default}
   button.ghost{background:var(--card2); color:var(--tx); border:1px solid var(--line); font-weight:500}
-  .pill{display:inline-block; font-size:11px; padding:3px 8px; border-radius:999px; background:var(--card2);
-       color:var(--dim); border:1px solid var(--line)}
-  .dev{display:flex; align-items:center; gap:12px; padding:12px; border:1px solid var(--line);
-       border-radius:12px; margin:8px 0; cursor:pointer; background:var(--card2)}
-  .dev.sel{border-color:var(--o); box-shadow:0 0 0 1px var(--o)}
-  .dev .nm{font-weight:600} .dev .meta{font-size:12px; color:var(--dim)}
-  .dev .dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex:0 0 9px}
-  .dev .dot.old{background:#6b6b76}
-  .empty{color:var(--dim); font-size:14px; text-align:center; padding:18px 6px}
-  .log{font:12px/1.5 ui-monospace,Menlo,monospace; background:#000; border:1px solid var(--line);
-       border-radius:11px; padding:11px; max-height:200px; overflow:auto; white-space:pre-wrap; color:#cfcfd6}
-  .row{display:flex; gap:10px} .row>*{flex:1}
+  button.full{width:100%;margin-top:16px}
+  .row{display:flex;gap:10px;flex-wrap:wrap} .row>*{flex:1;min-width:140px}
+  .note{font-size:12px; color:var(--dim); margin:10px 0 0}
+  code{font:12px ui-monospace,Menlo,monospace;background:var(--card2);padding:2px 6px;border-radius:6px;color:#e6e6ea}
   .k-ok{color:var(--ok)} .k-bad{color:var(--bad)}
-  a{color:var(--o)}
-  .note{font-size:12px; color:var(--dim); margin-top:6px}
+
+  .layout{display:grid;grid-template-columns:1fr;gap:16px}
+  @media(min-width:900px){ .layout{grid-template-columns:1.35fr 1fr} .layout .side{position:sticky;top:16px;align-self:start} }
+
+  .toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+  .toolbar input{flex:1;min-width:160px;padding:10px 12px;font-size:14px}
+  .seg{display:inline-flex;background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:3px}
+  .seg button{background:transparent;color:var(--dim);font-weight:500;font-size:13px;padding:7px 12px;border-radius:8px}
+  .seg button.on{background:var(--card3);color:var(--tx)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+  .phone{position:relative;background:var(--card2);border:1px solid var(--line);border-radius:15px;padding:15px;
+       cursor:pointer;transition:border-color .15s,transform .15s}
+  .phone:hover{border-color:#3a3a44} .phone:active{transform:scale(.99)}
+  .phone.sel{border-color:var(--o);box-shadow:0 0 0 1px var(--o)}
+  .phone .top{display:flex;align-items:center;gap:11px;margin-bottom:12px}
+  .phone .ic{width:36px;height:36px;border-radius:9px;background:var(--card3);display:grid;place-items:center;flex:0 0 36px}
+  .phone .nm{font-weight:600;font-size:15px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .phone .md{font-size:12px;color:var(--dim);margin-top:1px}
+  .phone .st{position:absolute;top:16px;right:16px;display:flex}
+  .phone .st .dot{width:10px;height:10px;flex:0 0 10px}
+  .specs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .spec{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+  .spec .l{font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--dim2)}
+  .spec .v{font-size:13.5px;font-weight:600;margin-top:1px}
+  .seen{font-size:11.5px;color:var(--dim);margin-top:10px;display:flex;align-items:center;gap:6px}
+
+  .empty{color:var(--dim); font-size:14px; text-align:center; padding:34px 10px}
+  .empty .big{font-size:30px;margin-bottom:6px;opacity:.6}
+
+  .target{display:flex;align-items:center;gap:12px;background:var(--card2);border:1px solid var(--line);
+       border-radius:14px;padding:12px;margin-bottom:4px}
+  .target .ic{width:40px;height:40px;border-radius:10px;background:var(--card3);display:grid;place-items:center;flex:0 0 40px}
+  .target .nm{font-weight:600} .target .md{font-size:12px;color:var(--dim)}
+  .target.none{justify-content:center;color:var(--dim);font-size:13.5px;padding:18px}
+
+  .log{font:12px/1.55 ui-monospace,Menlo,monospace; background:#000; border:1px solid var(--line);
+       border-radius:12px; padding:11px; max-height:240px; overflow:auto; white-space:pre-wrap; color:#cfcfd6}
+  .log .t{color:var(--dim2)}
+  .badge{font-size:11px;padding:3px 8px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--dim)}
+  .badge.warn{color:var(--warn);border-color:rgba(245,176,65,.35)}
 </style>
 </head>
 <body>
-<h1><svg class="k" viewBox="0 0 24 24" fill="none" stroke="var(--o)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M10.8 12.2 20 3"/><path d="M17 6l2 2"/><path d="M14 9l2 2"/></svg>Benstore Admin</h1>
-<p class="sub">Install an app onto any iPhone running Benstore — with the owner's consent.</p>
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <div class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#241300" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M10.8 12.2 20 3"/><path d="M17 6l2 2"/><path d="M14 9l2 2"/></svg></div>
+    <div><h1>Benstore Admin</h1><p>Every iPhone running Benstore, and installs onto them.</p></div>
+  </div>
+  <div class="row" style="flex:0 0 auto;gap:8px">
+    <span class="chip" id="onlineChip" style="display:none"><span class="dot on"></span><b id="onlineN">0</b>&nbsp;active</span>
+    <span class="chip" id="totalChip" style="display:none"><b id="totalN">0</b>&nbsp;phones</span>
+  </div>
+</header>
 
 <div class="card" id="keycard">
   <h2>Admin key</h2>
-  <div id="keystate" class="empty">Load your <code>benstore-admin-key.json</code> to start.</div>
-  <div class="row">
+  <div id="keystate" class="note" style="margin:0 0 4px">Load your <code>benstore-admin-key.json</code> to start.</div>
+  <div class="row" style="margin-top:10px">
     <button class="ghost" id="loadkey">Load key file</button>
     <button class="ghost" id="forgetkey" style="display:none">Forget key</button>
   </div>
   <input type="file" id="keyfile" accept="application/json,.json" style="display:none">
-  <p class="note">Your private key stays in this browser only (remembered on this device). It is never uploaded or sent anywhere — only the signatures it makes are.</p>
+  <p class="note">Your private key stays in this browser only. It's never uploaded; only the signatures it makes are sent.</p>
 </div>
 
-<div class="card" id="devcard" style="display:none">
-  <h2>Phones <span class="pill" id="devcount">0</span></h2>
-  <div id="devs"><div class="empty">Listening… open Benstore on a phone and it appears here.</div></div>
-</div>
+<div class="layout" id="main" style="display:none">
 
-<div class="card" id="sendcard" style="display:none">
-  <h2>Install an app</h2>
-  <label>App name (shown on the phone)</label>
-  <input id="name" placeholder="e.g. Delta">
-  <label>IPA URL (must be https)</label>
-  <input id="url" placeholder="https://…/App.ipa" inputmode="url" autocapitalize="off">
-  <label>SHA-256 (optional — verified on the phone)</label>
-  <input id="sha" placeholder="optional" autocapitalize="off">
-  <button id="send" disabled>Send to selected phone</button>
-  <p class="note">The phone checks the request is from your key, then asks its owner three times before installing (unless they turned that off).</p>
-</div>
+  <div>
+    <div class="card">
+      <h2>Phones <span class="badge" id="countBadge">0</span></h2>
+      <div class="toolbar">
+        <input id="search" placeholder="Search by name, model or version" autocapitalize="off">
+        <div class="seg" id="filter">
+          <button data-f="all" class="on">All</button>
+          <button data-f="online">Active</button>
+        </div>
+      </div>
+      <div id="phones"></div>
+    </div>
+  </div>
 
-<div class="card" id="logcard" style="display:none">
-  <h2>Status</h2>
-  <div class="log" id="log"></div>
+  <div class="side">
+    <div class="card">
+      <h2>Install an app</h2>
+      <div id="target" class="target none">Pick a phone on the left.</div>
+      <label>App name (shown on the phone)</label>
+      <input id="name" placeholder="e.g. Delta">
+      <label>IPA URL (must be https)</label>
+      <input id="url" placeholder="https://…/App.ipa" inputmode="url" autocapitalize="off">
+      <label>SHA-256 (optional, checked on the phone)</label>
+      <input id="sha" placeholder="optional" autocapitalize="off">
+      <button id="send" class="full" disabled>Send to phone</button>
+      <p class="note" id="consentNote">The phone checks the request is from your key. Unless its owner turned on Allow remote downloads, Benstore asks them three times before installing. Requests expire after 5 minutes.</p>
+    </div>
+
+    <div class="card">
+      <h2>Activity <button class="ghost" id="clearlog" style="padding:5px 10px;font-size:12px;width:auto;margin:0">Clear</button></h2>
+      <div class="log" id="log"><span class="t">Nothing yet.</span></div>
+    </div>
+  </div>
+
+</div>
 </div>
 
 <script>
 const NTFY="https://ntfy.sh";
+const ONLINE_SEC=420;                 // "active" = Benstore open now or in the last few minutes (it re-announces every 5 min while open)
 const b64=(buf)=>btoa(String.fromCharCode(...new Uint8Array(buf)));
 const enc=new TextEncoder();
 let KEY=null, TAG=null, REG=null, STAT=null;
-const devices=new Map();           // topic -> {name,ver,seen}
-let selected=null;
+const devices=new Map();              // topic -> {name,sysname,ver,ios,model,seen}
+let selected=null, filterMode="all", logEmpty=true;
 const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-function log(msg,cls){ const l=$("log"); const t=new Date().toLocaleTimeString();
-  l.innerHTML+=`<div class="${cls||''}">${t}  ${msg}</div>`; l.scrollTop=l.scrollHeight; }
+// Friendly names for model identifiers (hw.machine). Unknown ones show the raw identifier.
+const MODELS={
+ "iPhone8,1":"iPhone 6s","iPhone8,2":"iPhone 6s Plus","iPhone8,4":"iPhone SE",
+ "iPhone9,1":"iPhone 7","iPhone9,3":"iPhone 7","iPhone9,2":"iPhone 7 Plus","iPhone9,4":"iPhone 7 Plus",
+ "iPhone10,1":"iPhone 8","iPhone10,4":"iPhone 8","iPhone10,2":"iPhone 8 Plus","iPhone10,5":"iPhone 8 Plus",
+ "iPhone10,3":"iPhone X","iPhone10,6":"iPhone X","iPhone11,2":"iPhone XS","iPhone11,4":"iPhone XS Max",
+ "iPhone11,6":"iPhone XS Max","iPhone11,8":"iPhone XR","iPhone12,1":"iPhone 11","iPhone12,3":"iPhone 11 Pro",
+ "iPhone12,5":"iPhone 11 Pro Max","iPhone12,8":"iPhone SE (2nd gen)","iPhone13,1":"iPhone 12 mini",
+ "iPhone13,2":"iPhone 12","iPhone13,3":"iPhone 12 Pro","iPhone13,4":"iPhone 12 Pro Max",
+ "iPhone14,4":"iPhone 13 mini","iPhone14,5":"iPhone 13","iPhone14,2":"iPhone 13 Pro","iPhone14,3":"iPhone 13 Pro Max",
+ "iPhone14,6":"iPhone SE (3rd gen)","iPhone14,7":"iPhone 14","iPhone14,8":"iPhone 14 Plus",
+ "iPhone15,2":"iPhone 14 Pro","iPhone15,3":"iPhone 14 Pro Max","iPhone15,4":"iPhone 15","iPhone15,5":"iPhone 15 Plus",
+ "iPhone16,1":"iPhone 15 Pro","iPhone16,2":"iPhone 15 Pro Max","iPhone17,3":"iPhone 16","iPhone17,4":"iPhone 16 Plus",
+ "iPhone17,1":"iPhone 16 Pro","iPhone17,2":"iPhone 16 Pro Max","iPhone17,5":"iPhone 16e"
+};
+const modelName=m=>!m?"iPhone":(MODELS[m]||m);
+const phoneSvg=`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9c9d2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.6"/><path d="M11 18.5h2"/></svg>`;
 
-async function sha256hex(str){ const d=await crypto.subtle.digest("SHA-256",enc.encode(str));
-  return [...new Uint8Array(d)].map(b=>b.toString(16).padStart(2,"0")).join(""); }
+function rel(s){ s=Math.max(0,s|0); if(s<60)return"just now"; if(s<3600)return (s/60|0)+"m ago";
+  if(s<86400)return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
+const isOnline=d=>(Date.now()/1000-d.seen)<ONLINE_SEC;
+
+function log(msg,cls){ const l=$("log"); if(logEmpty){ l.innerHTML=""; logEmpty=false; }
+  const t=new Date().toLocaleTimeString([], {hour:"2-digit",minute:"2-digit",second:"2-digit"});
+  const div=document.createElement("div"); if(cls) div.className=cls;
+  div.innerHTML=`<span class="t">${esc(t)}</span>  ${esc(msg)}`; l.appendChild(div); l.scrollTop=l.scrollHeight; }
+$("clearlog").onclick=()=>{ $("log").innerHTML=`<span class="t">Nothing yet.</span>`; logEmpty=true; };
 
 // ---- key handling ----
 async function useKey(obj){
   const key=await crypto.subtle.importKey("jwk",obj.jwk,{name:"ECDSA",namedCurve:"P-256"},false,["sign"]);
-  // tag = first 16 hex of sha256(public point); must match the app's embedded key
-  const pub=Uint8Array.from(atob(obj.pub),c=>c.charCodeAt(0));
+  const pub=Uint8Array.from(atob(obj.pub),c=>c.charCodeAt(0));       // tag must match the app's embedded key
   const dig=await crypto.subtle.digest("SHA-256",pub);
   const tag=[...new Uint8Array(dig)].map(b=>b.toString(16).padStart(2,"0")).join("").slice(0,16);
   KEY=key; TAG=tag; REG="benstore-reg-"+tag; STAT="benstore-st-"+tag;
   localStorage.setItem("benstore_admin_key",JSON.stringify(obj));
-  $("keystate").innerHTML=`<span class="k-ok">Key loaded.</span> Admin tag <code>${tag}</code>`;
-  $("forgetkey").style.display=""; $("devcard").style.display=""; $("sendcard").style.display="";
-  $("logcard").style.display=""; log("Listening for phones on this key…");
-  listen();
+  $("keystate").innerHTML=`<span class="k-ok">Key loaded.</span> Admin tag <code>${esc(tag)}</code>`;
+  $("forgetkey").style.display=""; $("main").style.display="";
+  $("onlineChip").style.display=""; $("totalChip").style.display="";
+  listen(); render(); setInterval(render,30000);   // keep "seen" times and online dots fresh
 }
 $("loadkey").onclick=()=>$("keyfile").click();
 $("keyfile").onchange=e=>{ const f=e.target.files[0]; if(!f)return;
@@ -115,51 +203,88 @@ $("keyfile").onchange=e=>{ const f=e.target.files[0]; if(!f)return;
   r.readAsText(f); };
 $("forgetkey").onclick=()=>{ localStorage.removeItem("benstore_admin_key"); location.reload(); };
 
-// ---- live subscription (registry + status) via ntfy SSE, replays recent cache ----
+// ---- live subscription (registry + status) via ntfy SSE; replays the recent cache ----
 function sse(topic,since,onMsg){
   const es=new EventSource(`${NTFY}/${topic}/sse?since=${since}`);
   es.onmessage=ev=>{ try{ const m=JSON.parse(ev.data); if(m.event==="message"&&typeof m.message==="string") onMsg(m.message,m); }catch(x){} };
-  es.onerror=()=>{ /* EventSource auto-reconnects */ };
   return es;
 }
 function listen(){
-  sse(REG,"12h",(body)=>{ try{ const h=JSON.parse(body);
-    if(h.hello&&typeof h.topic==="string"){ devices.set(h.topic,{name:h.name||h.topic,ver:h.ver||"?",seen:h.seen||Date.now()/1000}); renderDevs(); } }catch(x){} });
-  sse(STAT,"10m",(body)=>{ try{ const s=JSON.parse(body);
-    const who=s.name||s.topic||"a phone"; const st=s.state||""; const extra=s.msg?` — ${s.msg}`:"";
-    const cls=st==="done"?"k-ok":(st==="error"||st==="declined")?"k-bad":"";
-    log(`${who}: ${st}${extra}`,cls); }catch(x){} });
+  sse(REG,"24h",(body)=>{ try{ const h=JSON.parse(body);
+    if(!h.hello||typeof h.topic!=="string") return;
+    const prev=devices.get(h.topic), seen=h.seen||Date.now()/1000;
+    if(prev && prev.seen>seen) return;                       // keep the newest announcement
+    devices.set(h.topic,{name:h.name||h.topic, sysname:h.sysname||"", ver:h.ver||"?",
+                         ios:h.ios||"", model:h.model||"", seen});
+    render(); }catch(x){} });
+  sse(STAT,"30m",(body)=>{ try{ const s=JSON.parse(body);
+    const who=s.name||s.topic||"a phone", st=s.state||"", extra=s.msg?` — ${s.msg}`:"";
+    const label={installing:"installing",done:"install started",declined:"declined",error:"error",busy:"busy"}[st]||st;
+    const cls=st==="done"?"k-ok":(st==="error"||st==="declined"||st==="busy")?"k-bad":"";
+    log(`${who}: ${label}${extra}`,cls); }catch(x){} });
 }
-function renderDevs(){
-  const el=$("devs"); const now=Date.now()/1000;
-  const list=[...devices.entries()].sort((a,b)=>b[1].seen-a[1].seen);
-  $("devcount").textContent=list.length;
-  if(!list.length){ el.innerHTML=`<div class="empty">Listening… open Benstore on a phone and it appears here.</div>`; return; }
-  el.innerHTML="";
+
+// ---- phone list ----
+$("filter").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b)return;
+  filterMode=b.dataset.f; [...$("filter").children].forEach(x=>x.classList.toggle("on",x===b)); render(); });
+$("search").addEventListener("input",render);
+
+function render(){
+  const now=Date.now()/1000, q=$("search").value.trim().toLowerCase();
+  const all=[...devices.entries()].sort((a,b)=>b[1].seen-a[1].seen);
+  const online=all.filter(([,d])=>isOnline(d)).length;
+  $("onlineN").textContent=online; $("totalN").textContent=all.length; $("countBadge").textContent=all.length;
+  let list=all.filter(([,d])=>filterMode==="all"||isOnline(d));
+  if(q) list=list.filter(([,d])=>[d.name,d.sysname,modelName(d.model),d.model,d.ver,d.ios].join(" ").toLowerCase().includes(q));
+  const el=$("phones");
+  if(!all.length){ el.innerHTML=`<div class="empty"><div class="big">📱</div>Listening… open Benstore on a phone and it shows up here.<br><span style="font-size:12px">Phones with Remote installs turned off don't appear.</span></div>`; updateTarget(); return; }
+  if(!list.length){ el.innerHTML=`<div class="empty">No phones match.</div>`; updateTarget(); return; }
+  el.innerHTML=`<div class="grid"></div>`; const g=el.firstChild;
   for(const [topic,d] of list){
-    const old=now-d.seen>900;
-    const div=document.createElement("div");
-    div.className="dev"+(selected===topic?" sel":"");
-    div.innerHTML=`<div class="dot ${old?"old":""}"></div><div style="flex:1"><div class="nm"></div>
-      <div class="meta">Benstore ${d.ver} · seen ${rel(now-d.seen)}</div></div>`;
-    div.querySelector(".nm").textContent=d.name;
-    div.onclick=()=>{ selected=topic; renderDevs(); updateSend(); };
-    el.appendChild(div);
+    const on=isOnline(d), card=document.createElement("div");
+    card.className="phone"+(selected===topic?" sel":"");
+    card.innerHTML=`
+      <div class="st"><span class="dot ${on?"on":""}" title="${on?"Benstore is open":"Not open right now"}"></span></div>
+      <div class="top"><div class="ic">${phoneSvg}</div>
+        <div style="min-width:0;padding-right:16px"><div class="nm"></div><div class="md"></div></div></div>
+      <div class="specs">
+        <div class="spec"><div class="l">iOS</div><div class="v"></div></div>
+        <div class="spec"><div class="l">Benstore</div><div class="v"></div></div>
+      </div>
+      <div class="seen">${on?"Active":"Last seen"} · ${esc(rel(now-d.seen))}</div>`;
+    card.querySelector(".nm").textContent=d.name;
+    card.querySelector(".md").textContent=modelName(d.model);
+    const v=card.querySelectorAll(".spec .v"); v[0].textContent=d.ios||"—"; v[1].textContent=d.ver;
+    card.onclick=()=>{ selected=topic; render(); };
+    g.appendChild(card);
   }
+  updateTarget();
 }
-function rel(s){ s=Math.max(0,s|0); if(s<60)return"just now"; if(s<3600)return (s/60|0)+"m ago";
-  if(s<86400)return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
+
+function updateTarget(){
+  const t=$("target"), d=selected?devices.get(selected):null;
+  if(!d){ t.className="target none"; t.textContent="Pick a phone on the left."; updateSend(); return; }
+  const on=isOnline(d);
+  t.className="target";
+  t.innerHTML=`<div class="ic">${phoneSvg}</div><div style="flex:1;min-width:0">
+    <div class="nm"></div><div class="md"></div></div>
+    ${on?`<span class="badge" style="color:var(--ok);border-color:rgba(57,194,107,.35)">Active</span>`:`<span class="badge warn">Not open</span>`}`;
+  t.querySelector(".nm").textContent=d.name;
+  t.querySelector(".md").textContent=`${modelName(d.model)} · iOS ${d.ios||"?"} · Benstore ${d.ver}`;
+  updateSend();
+}
 
 // ---- sending ----
-function updateSend(){ $("send").disabled=!(selected && $("url").value.trim().startsWith("https://")); }
+function updateSend(){ $("send").disabled=!(selected && devices.get(selected) && $("url").value.trim().startsWith("https://")); }
 $("url").addEventListener("input",updateSend);
 
 $("send").onclick=async()=>{
   if(!KEY||!selected) return;
+  const d=devices.get(selected);
   const url=$("url").value.trim(), name=$("name").value.trim()||"an app", sha=$("sha").value.trim();
-  if(!url.startsWith("https://")){ log("URL must start with https://","k-bad"); return; }
-  const nonceBuf=crypto.getRandomValues(new Uint8Array(12));
-  const nonce=[...nonceBuf].map(b=>b.toString(16).padStart(2,"0")).join("");
+  if(!url.startsWith("https://")){ log("The IPA URL must start with https://","k-bad"); return; }
+  if(sha && !/^[0-9a-fA-F]{64}$/.test(sha)){ log("SHA-256 should be 64 hex characters (or leave it blank).","k-bad"); return; }
+  const nonce=[...crypto.getRandomValues(new Uint8Array(12))].map(b=>b.toString(16).padStart(2,"0")).join("");
   const payloadObj={v:1,t:selected,name,url,exp:Math.floor(Date.now()/1000)+300,nonce};
   if(sha) payloadObj.sha256=sha.toLowerCase();
   const payload=JSON.stringify(payloadObj);
@@ -169,12 +294,14 @@ $("send").onclick=async()=>{
   try{
     const r=await fetch(`${NTFY}/${selected}`,{method:"POST",body:envelope});
     if(!r.ok) throw new Error("HTTP "+r.status);
-    const dn=devices.get(selected); log(`Sent “${name}” to ${dn?dn.name:selected}. Waiting for the owner…`);
+    log(`Sent “${name}” to ${d?d.name:selected}.`+(d&&!isOnline(d)
+        ? " Benstore isn't open on it right now. The request only works if Benstore is opened there within 5 minutes."
+        : " Waiting for the phone (it checks every 15 seconds while Benstore is open)…"));
   }catch(x){ log("Couldn't send: "+x.message,"k-bad"); }
-  $("send").disabled=false; updateSend();
+  updateSend();
 };
 
-// restore key from this device
+// restore key saved on this device
 const saved=localStorage.getItem("benstore_admin_key");
 if(saved){ try{ useKey(JSON.parse(saved)); }catch(x){} }
 </script>
