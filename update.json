@@ -1,10 +1,10 @@
 {
- "version": "1.64",
- "build": "65/x",
- "notes": "The Return to current version button in older versions (1.0 to 1.36) now follows your theme color. Reinstall an older version from the list to get it.",
+ "version": "1.65",
+ "build": "66/x",
+ "notes": "Your theme's app icon comes back on its own: after returning from an older version, Benstore puts the themed icon back when it opens.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "14a7a924c861edc045c8e75e53b2891421d4697e862b00aa9c4195ca486bd48e"
+  "sha256": "432c2ca81c4492e709d391d856d8cb8c96996021ba6fd713b21adaef804304d2"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.65",
+   "build": 66,
+   "date": "2026-11-25T23:44:06-05:00",
+   "notes": "Your theme's app icon comes back on its own: after returning from an older version, Benstore puts the themed icon back when it opens.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "432c2ca81c4492e709d391d856d8cb8c96996021ba6fd713b21adaef804304d2",
+    "size": 2132937
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.64",
    "build": 65,
    "date": "2026-11-25T23:39:31-05:00",
    "notes": "The Return to current version button in older versions (1.0 to 1.36) now follows your theme color. Reinstall an older version from the list to get it.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b9549d5e4082cda004f8213c5208b71e1e84ecb3/Benstore.ipa",
     "sha256": "14a7a924c861edc045c8e75e53b2891421d4697e862b00aa9c4195ca486bd48e",
     "size": 2131980
    },
