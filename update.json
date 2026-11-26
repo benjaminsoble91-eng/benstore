@@ -1,10 +1,10 @@
 {
- "version": "1.74",
- "build": "75/x",
- "notes": "Admin Panel redesign: phone cards with status, a summary of how many phones are active, search, rename phones, an App Library of saved IPAs, and installing one app onto several phones at once.",
+ "version": "1.75",
+ "build": "76/x",
+ "notes": "Admin Panel can send a notification to any phone (or several at once). It shows under the Benstore name. Phones pick it up when Benstore is open, or in the background when iOS lets it refresh.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "7994e7f2987ff2895d4238ecea83fe214aff8f5be6c1b36985d8dce8eaebf816"
+  "sha256": "6e35c6652d8c998f1c4e28f9353eb1ee3c5b4c5596357cd5a9a09bdc4766343c"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.75",
+   "build": 76,
+   "date": "2026-11-26T18:13:56-05:00",
+   "notes": "Admin Panel can send a notification to any phone (or several at once). It shows under the Benstore name. Phones pick it up when Benstore is open, or in the background when iOS lets it refresh.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "6e35c6652d8c998f1c4e28f9353eb1ee3c5b4c5596357cd5a9a09bdc4766343c",
+    "size": 4018316
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.74",
    "build": 75,
    "date": "2026-11-26T18:00:37-05:00",
    "notes": "Admin Panel redesign: phone cards with status, a summary of how many phones are active, search, rename phones, an App Library of saved IPAs, and installing one app onto several phones at once.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/06c9006b1f63da0249183146e383123f2187ecbe/Benstore.ipa",
     "sha256": "7994e7f2987ff2895d4238ecea83fe214aff8f5be6c1b36985d8dce8eaebf816",
     "size": 4012878
    },
