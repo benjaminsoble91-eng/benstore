@@ -1,10 +1,10 @@
 {
- "version": "1.62",
- "build": "63/x",
- "notes": "Install Older Version now covers 1.0 to 1.61. Versions 1.0 to 1.36 come with an orange Return to current version button on every screen, and the list shows which ones have it.",
+ "version": "1.63",
+ "build": "64/x",
+ "notes": "Themes: Settings → Appearance → Theme. Orange, Classic Purple (the 1.0 color), Blue, Green, Pink, Red and Teal, each with a matching app icon. Reopen Benstore after picking one.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "7cacb2f90c87ccf6dcef19c7e4bfcf8ce32afc23e820bfe998ebbd7509e2d90e"
+  "sha256": "31f6fa6c1ab4a697b5e5cd844488116593ac5de3c288b72eb8249f3c0afa55da"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.63",
+   "build": 64,
+   "date": "2026-11-25T23:30:11-05:00",
+   "notes": "Themes: Settings → Appearance → Theme. Orange, Classic Purple (the 1.0 color), Blue, Green, Pink, Red and Teal, each with a matching app icon. Reopen Benstore after picking one.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "31f6fa6c1ab4a697b5e5cd844488116593ac5de3c288b72eb8249f3c0afa55da",
+    "size": 2131980
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.62",
    "build": 63,
    "date": "2026-11-25T23:24:50-05:00",
    "notes": "Install Older Version now covers 1.0 to 1.61. Versions 1.0 to 1.36 come with an orange Return to current version button on every screen, and the list shows which ones have it.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/14d15c94c7736f9876774a80ab6e2a2610165c01/Benstore.ipa",
     "sha256": "7cacb2f90c87ccf6dcef19c7e4bfcf8ce32afc23e820bfe998ebbd7509e2d90e",
     "size": 1832839
    },
