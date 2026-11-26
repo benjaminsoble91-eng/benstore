@@ -1,10 +1,10 @@
 {
- "version": "1.63",
- "build": "64/x",
- "notes": "Themes: Settings → Appearance → Theme. Orange, Classic Purple (the 1.0 color), Blue, Green, Pink, Red and Teal, each with a matching app icon. Reopen Benstore after picking one.",
+ "version": "1.64",
+ "build": "65/x",
+ "notes": "The Return to current version button in older versions (1.0 to 1.36) now follows your theme color. Reinstall an older version from the list to get it.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "31f6fa6c1ab4a697b5e5cd844488116593ac5de3c288b72eb8249f3c0afa55da"
+  "sha256": "14a7a924c861edc045c8e75e53b2891421d4697e862b00aa9c4195ca486bd48e"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.64",
+   "build": 65,
+   "date": "2026-11-25T23:39:31-05:00",
+   "notes": "The Return to current version button in older versions (1.0 to 1.36) now follows your theme color. Reinstall an older version from the list to get it.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "14a7a924c861edc045c8e75e53b2891421d4697e862b00aa9c4195ca486bd48e",
+    "size": 2131980
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.63",
    "build": 64,
    "date": "2026-11-25T23:30:11-05:00",
    "notes": "Themes: Settings → Appearance → Theme. Orange, Classic Purple (the 1.0 color), Blue, Green, Pink, Red and Teal, each with a matching app icon. Reopen Benstore after picking one.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/31825e00cc822c8516827290075593b1aed3e277/Benstore.ipa",
     "sha256": "31f6fa6c1ab4a697b5e5cd844488116593ac5de3c288b72eb8249f3c0afa55da",
     "size": 2131980
    },
