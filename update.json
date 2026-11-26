@@ -1,10 +1,10 @@
 {
- "version": "1.72",
- "build": "73/x",
- "notes": "JIT: Settings → JIT → Enable JIT opens a sideloaded app with JIT on (emulators and similar). Works on iOS 17+, including the iOS 26+ method on newer iPhones. Needs LocalDevVPN and Developer Mode.",
+ "version": "1.73",
+ "build": "74/x",
+ "notes": "JIT speed fix: on iOS 26+ the app's own memory faults no longer go through Benstore's debugger, which made emulators crawl. The JIT log also shows whether the app asked for JIT memory.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "fea26d6db264d4bcb2ff051b5f7c6dae76e3c8bc9bd87716ea31cf2714ff0237"
+  "sha256": "803854078119e6f26fb07b3053b0351ef5653106f5a7d40f3b37505f91c7530d"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.73",
+   "build": 74,
+   "date": "2026-11-26T17:42:25-05:00",
+   "notes": "JIT speed fix: on iOS 26+ the app's own memory faults no longer go through Benstore's debugger, which made emulators crawl. The JIT log also shows whether the app asked for JIT memory.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "803854078119e6f26fb07b3053b0351ef5653106f5a7d40f3b37505f91c7530d",
+    "size": 3986531
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.72",
    "build": 73,
    "date": "2026-11-26T17:19:04-05:00",
    "notes": "JIT: Settings → JIT → Enable JIT opens a sideloaded app with JIT on (emulators and similar). Works on iOS 17+, including the iOS 26+ method on newer iPhones. Needs LocalDevVPN and Developer Mode.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/e602f1e3e3faa052f023702705126c79677c68c5/Benstore.ipa",
     "sha256": "fea26d6db264d4bcb2ff051b5f7c6dae76e3c8bc9bd87716ea31cf2714ff0237",
     "size": 3986272
    },
