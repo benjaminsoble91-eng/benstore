@@ -393,11 +393,11 @@
    "version": "1.36",
    "build": 37,
    "date": "2026-11-22T14:20:06-05:00",
-   "notes": "Patched so it can update back (takes two updates). IOS-style resource seals for frameworks and dylibs (fixes 0xe8008001 on iOS 27)",
+   "notes": "Has a Return to current version button added. IOS-style resource seals for frameworks and dylibs (fixes 0xe8008001 on iOS 27)",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.36.ipa",
-    "sha256": "38f284e9cc3066ae849c01818133dee6cea3c05c73a21bc1d941c2d3b23cda9d",
-    "size": 1723097
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.36.ipa",
+    "sha256": "40fc110fe5894c528c4320b05f829d22cb812674fb8f06440f5eced4d50ab4eb",
+    "size": 2771865
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/0c770982ec558cd2fbcf11bc69133245f3ba31f2/Benstore-Installer.zip",
@@ -414,11 +414,11 @@
    "version": "1.35",
    "build": 36,
    "date": "2026-11-22T13:38:10-05:00",
-   "notes": "Patched so it can update back (takes two updates). Use Backup Apple ID (prefer backup for new installs)",
+   "notes": "Has a Return to current version button added. Use Backup Apple ID (prefer backup for new installs)",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.35.ipa",
-    "sha256": "210b938af47b57757d39e37ff6e924dd5b386985185d03280be733a617387efa",
-    "size": 1723587
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.35.ipa",
+    "sha256": "2c5bbb047ac26155fb2d272ef9a3f8db2ee3eb7f69dd0e11afa2a2f444415138",
+    "size": 2772359
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/cede4ef49badb9eb29037e1536348a90af800f6a/Benstore-Installer.zip",
@@ -435,11 +435,11 @@
    "version": "1.34",
    "build": 35,
    "date": "2026-11-22T13:34:02-05:00",
-   "notes": "Patched so it can update back (takes two updates). Use Backups Automatically switch",
+   "notes": "Has a Return to current version button added. Use Backups Automatically switch",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.34.ipa",
-    "sha256": "ee89050ac8890d8a3088eea6f76e681e9d3fea2444871aff8b33621e0868295e",
-    "size": 1722948
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.34.ipa",
+    "sha256": "1a5eb253f83b1125cb9897f521aa31220d1b321bc392be1fc6c16e472922f24f",
+    "size": 2771729
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/3ddcbcfba13766f9d83185cf66ea38073c5f9c2e/Benstore-Installer.zip",
@@ -456,11 +456,11 @@
    "version": "1.33",
    "build": 34,
    "date": "2026-11-22T09:45:52-05:00",
-   "notes": "Patched so it can update back (takes two updates). Detect deleted apps on-device and on every connection",
+   "notes": "Has a Return to current version button added. Detect deleted apps on-device and on every connection",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.33.ipa",
-    "sha256": "f221ac397c34408a7e4820ecff2f0dc5de394909c7e1e05ce26318b27028b62f",
-    "size": 1722499
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.33.ipa",
+    "sha256": "264815d707a01347121d7f1bcfab0f9652eb7e0c0410e89849da4507c065161b",
+    "size": 2771282
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/09158965dab3fb713d50728f1302da7ed1d555e7/Benstore-Installer.zip",
@@ -477,11 +477,11 @@
    "version": "1.32",
    "build": 33,
    "date": "2026-11-22T09:37:50-05:00",
-   "notes": "Patched so it can update back (takes two updates). Shelve apps that were deleted from the phone",
+   "notes": "Has a Return to current version button added. Shelve apps that were deleted from the phone",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.32.ipa",
-    "sha256": "5afa4d328b7564f320d6628dfeeca3031845407ed659f624ce0e21151485bf8c",
-    "size": 1720934
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.32.ipa",
+    "sha256": "d3704355031de47363c20a1b5e53e09071492f150e14e822e3ec303a971aab99",
+    "size": 2769718
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/db44e940cc669c5d52123c5dd112daed08438904/Benstore-Installer.zip",
@@ -498,11 +498,11 @@
    "version": "1.31",
    "build": 32,
    "date": "2026-11-22T09:34:39-05:00",
-   "notes": "Patched so it can update back (takes two updates). Park error diagnosis",
+   "notes": "Has a Return to current version button added. Park error diagnosis",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.31.ipa",
-    "sha256": "0731c61da2c853542034bc75367b342004b99bad558aa341db56f8f8b6bf3d82",
-    "size": 1718641
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.31.ipa",
+    "sha256": "df46f8f8b22f109f2f6efa529dbb7f102959d7f32b45726011bb6618f2f23b2b",
+    "size": 2767440
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/df9aaa8578b69262bda44f50218e825f3c8b6877/Benstore-Installer.zip",
@@ -519,11 +519,11 @@
    "version": "1.30",
    "build": 31,
    "date": "2026-11-22T09:31:10-05:00",
-   "notes": "Patched so it can update back (takes two updates). Resolve installed bundle IDs from the device before park/remove/refresh",
+   "notes": "Has a Return to current version button added. Resolve installed bundle IDs from the device before park/remove/refresh",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.30.ipa",
-    "sha256": "ada774d144d93e97a5717e7cb6a712b6dfb6697cf29eaa7995b519fcd9684fc1",
-    "size": 1717297
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.30.ipa",
+    "sha256": "3a363b03c650befef2d88e3163fa15820b2a3a44a918e04bc583ec4adb13a622",
+    "size": 2766079
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/299250aee31e4b8d66dab36e36e32d02865dc264/Benstore-Installer.zip",
@@ -540,11 +540,11 @@
    "version": "1.29",
    "build": 30,
    "date": "2026-11-22T09:28:19-05:00",
-   "notes": "Patched so it can update back (takes two updates). Self-update hands off to iOS instead of hanging",
+   "notes": "Has a Return to current version button added. Self-update hands off to iOS instead of hanging",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.29.ipa",
-    "sha256": "ba78e6b78b4dade403007ac30cbe7bb4b7ccef749ad7f176150e2bc30f95f82d",
-    "size": 1715990
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.29.ipa",
+    "sha256": "3d089edf6eda07cd9b6d90be543a05242573f36c345e09cdf835a30dfa4af27b",
+    "size": 2764776
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c4339160a8e05df1d8bf23129c6295566a111ccc/Benstore-Installer.zip",
@@ -561,11 +561,11 @@
    "version": "1.28",
    "build": 29,
    "date": "2026-11-22T09:23:05-05:00",
-   "notes": "Patched so it can update back (takes two updates). Cellular park/unpark/remove, background time and notifications for updates",
+   "notes": "Has a Return to current version button added. Cellular park/unpark/remove, background time and notifications for updates",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.28.ipa",
-    "sha256": "e62cee92cca8ba64be24f6d95d646246e9fb1f1656f04a95917013e042717ab3",
-    "size": 1715369
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.28.ipa",
+    "sha256": "1d85362cf55959ce9c5eab35b68c19079ea99995d400e21fa82a703e36289652",
+    "size": 2764157
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/f53a26e5ae63876e9a7ff3b55b4b20c93a5cdaf8/Benstore-Installer.zip",
@@ -582,11 +582,11 @@
    "version": "1.27",
    "build": 28,
    "date": "2026-11-22T09:15:39-05:00",
-   "notes": "Patched so it can update back (takes two updates). Park and unpark apps with their data",
+   "notes": "Has a Return to current version button added. Park and unpark apps with their data",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.27.ipa",
-    "sha256": "590153b10c79721cccd19793a9f6b4893566ca6a7c2c69c2f4341da4f43b9dbd",
-    "size": 1713730
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.27.ipa",
+    "sha256": "1a537d615503acdec746a80a85c3995849e7400c44ce88ba6f23dc5d89fce403",
+    "size": 2762518
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/98ef2ab9d3f352febf088bfc4f0fc973b72d801d/Benstore-Installer.zip",
@@ -603,11 +603,11 @@
    "version": "1.26",
    "build": 27,
    "date": "2026-11-22T09:06:33-05:00",
-   "notes": "Patched so it can update back (takes two updates). Per-device slot meter, show other sideloaders' apps, background scan",
+   "notes": "Has a Return to current version button added. Per-device slot meter, show other sideloaders' apps, background scan",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.26.ipa",
-    "sha256": "8be3c6acb68ec22bc7ebbf6463a2e5e97ac3ae6a07d064312a3c20a7f8c156d5",
-    "size": 1688327
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.26.ipa",
+    "sha256": "b1213708e75988b7d7599bd0257815122ce357dcbe56e44a89aeae04837211b9",
+    "size": 2737117
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1f1d9b226ebd9b306952f41f660da8c41bf99981/Benstore-Installer.zip",
@@ -624,11 +624,11 @@
    "version": "1.25",
    "build": 26,
    "date": "2026-11-22T08:57:56-05:00",
-   "notes": "Patched so it can update back (takes two updates). Count apps from other sideloaders in the slot meter",
+   "notes": "Has a Return to current version button added. Count apps from other sideloaders in the slot meter",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.25.ipa",
-    "sha256": "eef29109f22cf427cee27b2a6e1de8d5ed2ef9660ffaa8ac6814538bb1c8ab20",
-    "size": 1686418
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.25.ipa",
+    "sha256": "db1de5573ca5940a8648a1c03093c1480d607d03a9cd2c13a086464ff1f77e88",
+    "size": 2735191
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/237c80c170cbb73a9f0673137145340f5a4271ac/Benstore-Installer.zip",
@@ -645,11 +645,11 @@
    "version": "1.24",
    "build": 25,
    "date": "2026-11-22T08:54:59-05:00",
-   "notes": "Patched so it can update back (takes two updates). Use backup Apple IDs automatically",
+   "notes": "Has a Return to current version button added. Use backup Apple IDs automatically",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.24.ipa",
-    "sha256": "4ae36f7f4b3d1c22468aa1be297739d97532f2f2c806bb0538f54a8e2aa8b885",
-    "size": 1683851
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.24.ipa",
+    "sha256": "c3a22f5367bf5fbcf220878f570930b1140aeee1fcf73bdf0d80abb5761ae6f7",
+    "size": 2732645
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b1c2ee01c6a9025ed7777a11e7016329bb69207d/Benstore-Installer.zip",
@@ -666,11 +666,11 @@
    "version": "1.23",
    "build": 24,
    "date": "2026-11-22T08:52:23-05:00",
-   "notes": "Patched so it can update back (takes two updates). Catch iOS 27 app-limit error, offer non-Benstore apps",
+   "notes": "Has a Return to current version button added. Catch iOS 27 app-limit error, offer non-Benstore apps",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.23.ipa",
-    "sha256": "c7f2b7c18d07e56a09253bb2ee9f5e7ffe726f15c8889f6c33988fb098dab536",
-    "size": 1683104
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.23.ipa",
+    "sha256": "e487d9ff721f809abbe1e03ade0bf6b89629560398940d0a87b5997e88698e68",
+    "size": 2731883
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7c230ccc47d458aee896815acab9382985940246/Benstore-Installer.zip",
@@ -687,11 +687,11 @@
    "version": "1.22",
    "build": 23,
    "date": "2026-11-22T08:48:18-05:00",
-   "notes": "Patched so it can update back (takes two updates). Plain Settings rows",
+   "notes": "Has a Return to current version button added. Plain Settings rows",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.22.ipa",
-    "sha256": "c724753ee411732af2b1dbb436d3264621177d6f51f1d8cb30aee9c8ee072d6a",
-    "size": 1681823
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.22.ipa",
+    "sha256": "796b515fca102ac4ec11c1e38706dc9a0776faba2e1a4c8fe589a047205dee62",
+    "size": 2730619
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6cb0cb16a7481f50fbcba360cf3fc049b4c4a709/Benstore-Installer.zip",
@@ -708,11 +708,11 @@
    "version": "1.21",
    "build": 22,
    "date": "2026-11-22T08:41:06-05:00",
-   "notes": "Patched so it can update back (takes two updates). UI polish",
+   "notes": "Has a Return to current version button added. UI polish",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.21.ipa",
-    "sha256": "f9f2d9f8fd5f77361620eb75f9b1edf6f012b2ef420a7a565fcd6545389623b2",
-    "size": 1682621
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.21.ipa",
+    "sha256": "68210bd0b4fdff24077a46efea23cdb0faca1fa5cc66194e9b9493ddc43bbdd2",
+    "size": 2731402
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/89e7074af93a62f7bbf5d85db7e545c7ec92b20b/Benstore-Installer.zip",
@@ -729,11 +729,11 @@
    "version": "1.20",
    "build": 21,
    "date": "2026-11-22T08:16:36-05:00",
-   "notes": "Patched so it can update back (takes two updates). Optional Sources (Browse tab)",
+   "notes": "Has a Return to current version button added. Optional Sources (Browse tab)",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.20.ipa",
-    "sha256": "b212890dade6188774d560253bf67d006fa733758b4afb954be3a14b30462ce1",
-    "size": 1668057
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.20.ipa",
+    "sha256": "15fdae74163233beb8745554591fc3e746ef54ce3b0f74c393b2f9e7d2984277",
+    "size": 2716860
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/62740f80f4f9f53ad5afaf0a82fffa25d08e920c/Benstore-Installer.zip",
@@ -750,11 +750,11 @@
    "version": "1.19",
    "build": 20,
    "date": "2026-11-22T07:59:58-05:00",
-   "notes": "Patched so it can update back (takes two updates). Never leave cellular data off after a self-update",
+   "notes": "Has a Return to current version button added. Never leave cellular data off after a self-update",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.19.ipa",
-    "sha256": "a6ab58b2eaee71e9c7a2aa2bb3af7b41ebf1fbc2af84e4d14b512fef8e66ec06",
-    "size": 1656312
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.19.ipa",
+    "sha256": "69f4ead61e7cae796462edf1027a758a6eac531cf92680b39faad4eac8ef74eb",
+    "size": 2705125
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/b6df7fe05f05734839753a7c43743f5787251319/Benstore-Installer.zip",
@@ -771,11 +771,11 @@
    "version": "1.18",
    "build": 19,
    "date": "2026-11-22T07:56:39-05:00",
-   "notes": "Patched so it can update back (takes two updates). App ID tracker",
+   "notes": "Has a Return to current version button added. App ID tracker",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.18.ipa",
-    "sha256": "270f1dc4680a7eff27d86c158d5ae56c423797a9a13d07ac6345cc0167ea4a2b",
-    "size": 1655630
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.18.ipa",
+    "sha256": "69ca96419fcfda090801e4629e70e319419d824326b40dc864678ea30f4f4e9c",
+    "size": 2704403
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/f0f0ab35c9a9910ab7692d2c9a5d7bae6589eff8/Benstore-Installer.zip",
@@ -792,11 +792,11 @@
    "version": "1.17",
    "build": 18,
    "date": "2026-11-21T23:51:09-05:00",
-   "notes": "Patched so it can update back (takes two updates). Cellular installs via brief data-off (guided or Shortcuts)",
+   "notes": "Has a Return to current version button added. Cellular installs via brief data-off (guided or Shortcuts)",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.17.ipa",
-    "sha256": "ed55be6f9f032c78d8dc6fa1b158ad21fcd0c74e81d80ea8bcb75cf62def5394",
-    "size": 1651739
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.17.ipa",
+    "sha256": "2c36f4b5e8da0f640f76a8eae096672299d8dbaf9f78b188c53c3b11077191c2",
+    "size": 2700514
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6c2ed5abe0cdc1d430745cba7cf280c4ffadf23b/Benstore-Installer.zip",
@@ -813,11 +813,11 @@
    "version": "1.16",
    "build": 17,
    "date": "2026-11-21T23:35:58-05:00",
-   "notes": "Patched so it can update back (takes two updates). Smaller binaries, update prefetch, safe sign-in, cellular probing",
+   "notes": "Has a Return to current version button added. Smaller binaries, update prefetch, safe sign-in, cellular probing",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.16.ipa",
-    "sha256": "b5d72a549547a4ce04c347fc72c442a7a3fbfa510750c19ee3eec881b6d5d23d",
-    "size": 1648023
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.16.ipa",
+    "sha256": "4360bb43780383e86941b25206f45d98787fd4cbef306c17fbefcf073b969694",
+    "size": 2696791
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/cc1d84b009f549f4e87fc133e99b42068616704d/Benstore-Installer.zip",
@@ -834,11 +834,11 @@
    "version": "1.15",
    "build": 16,
    "date": "2026-11-21T23:27:23-05:00",
-   "notes": "Patched so it can update back (takes two updates). Experimental wording",
+   "notes": "Has a Return to current version button added. Experimental wording",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.15.ipa",
-    "sha256": "712393f41bba1cf090a1c90e91c0dfa4b6a710d221969ad962c5f4559acd0361",
-    "size": 4637837
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.15.ipa",
+    "sha256": "0d28b776a8b67fa9aaa485a3e20142b0b14639477d7eb9bed1be2c0f6d64f443",
+    "size": 5686620
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/8a6b13b4e8fc2f25b7bbd5ebe769142c33464547/Benstore-Installer.zip",
@@ -855,11 +855,11 @@
    "version": "1.14",
    "build": 15,
    "date": "2026-11-21T23:25:38-05:00",
-   "notes": "Patched so it can update back (takes two updates). Experimental cellular installs (pin to VPN interface)",
+   "notes": "Has a Return to current version button added. Experimental cellular installs (pin to VPN interface)",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.14.ipa",
-    "sha256": "ee908bb02ebd9cff1637ed5ceeaf088e535426290af9f878027988e9245a0a6f",
-    "size": 4637831
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.14.ipa",
+    "sha256": "fad51e5c4c8b5dc4b9ebcf0c8b635c260e0756ab0f76b9918a20ffb618a7fb28",
+    "size": 5686623
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/03acf881f84f2af0d8b21b47c37541ab2600faef/Benstore-Installer.zip",
@@ -876,11 +876,11 @@
    "version": "1.13",
    "build": 14,
    "date": "2026-11-21T23:19:19-05:00",
-   "notes": "Patched so it can update back (takes two updates). Beta tag on backup IDs; correct message on cellular",
+   "notes": "Has a Return to current version button added. Beta tag on backup IDs; correct message on cellular",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.13.ipa",
-    "sha256": "ab54496419369e4c9a61db99f4cd819ca627907cce425f9f78e60fb4bcdf5b82",
-    "size": 4634981
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.13.ipa",
+    "sha256": "5209639ea1d91bd6b6b3261c87043ca71cb658f38b2a4147a5d3b9fc59c44848",
+    "size": 5683816
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/94c1fcdb0321b4fb7068a90ccf7cb577427df44d/Benstore-Installer.zip",
@@ -897,11 +897,11 @@
    "version": "1.12",
    "build": 13,
    "date": "2026-11-21T23:13:13-05:00",
-   "notes": "Patched so it can update back (takes two updates). Backup Apple IDs",
+   "notes": "Has a Return to current version button added. Backup Apple IDs",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.12.ipa",
-    "sha256": "5cd53a823f224479862ab775f688ce9e56027bb4109d87d71e614ae051cd612f",
-    "size": 4634650
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.12.ipa",
+    "sha256": "9ab8050410924c29e3a0c16a1b4857093e3c6cfb791371554c662dc4e5fb7a2c",
+    "size": 5683449
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/a9ce8cd23b3293bf447afc1ca68579c1c6abd2c5/Benstore-Installer.zip",
@@ -918,11 +918,11 @@
    "version": "1.11",
    "build": 12,
    "date": "2026-11-21T23:08:28-05:00",
-   "notes": "Patched so it can update back (takes two updates). Swap-out picker at the 3-app limit",
+   "notes": "Has a Return to current version button added. Swap-out picker at the 3-app limit",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.11.ipa",
-    "sha256": "f3c53ad539db75848e4fb0a7d4a2fe20db322fe4b749158601b0440a9c8dcc4d",
-    "size": 4625512
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.11.ipa",
+    "sha256": "65409d318ab744d982ca829e80d517b16ead61ce35c15b5c5c9946b5221bb50d",
+    "size": 5674306
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/94b91357977442c32b158fc5ab26006db82a1f16/Benstore-Installer.zip",
@@ -939,11 +939,11 @@
    "version": "1.10",
    "build": 11,
    "date": "2026-11-21T23:02:19-05:00",
-   "notes": "Patched so it can update back (takes two updates). IOS 27 RemotePairing order (verify before setup, one connection)",
+   "notes": "Has a Return to current version button added. IOS 27 RemotePairing order (verify before setup, one connection)",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.10.ipa",
-    "sha256": "74146c6817d54e0b7dbee19019cd040155b353acfde6886fe3f8954b8390c5d4",
-    "size": 4622769
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.10.ipa",
+    "sha256": "f46c78f24ac773a65184225e5235a0f9543129f861f444d9896606ffcc241ce7",
+    "size": 5671579
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/38b90bb971b3d9df7f10686082e9b0cf0b1de024/Benstore-Installer.zip",
@@ -960,11 +960,11 @@
    "version": "1.9",
    "build": 10,
    "date": "2026-11-21T22:50:39-05:00",
-   "notes": "Patched so it can update back (takes two updates). Fixes from 5-agent review; unique RemotePairing label",
+   "notes": "Has a Return to current version button added. Fixes from 5-agent review; unique RemotePairing label",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.9.ipa",
-    "sha256": "baec84f1bdf0292d464d845748643d9fbd30e24ca93aa5366da3664c598392e6",
-    "size": 4623246
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.9.ipa",
+    "sha256": "a30709ecf3a102a9d3b442f52decae923fb3b5f06e27a98880d86bca2d7b3d7c",
+    "size": 5672047
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/2a881b46b8ed93cebe5bed7899114853b1bdda53/Benstore-Installer.zip",
@@ -981,11 +981,11 @@
    "version": "1.8",
    "build": 9,
    "date": "2026-11-21T22:35:39-05:00",
-   "notes": "Patched so it can update back (takes two updates). Idevice debug log for wireless pairing; 60s limit",
+   "notes": "Has a Return to current version button added. Idevice debug log for wireless pairing; 60s limit",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.8.ipa",
-    "sha256": "97986b5a1161ddeda5023960ba08be5067df9b9bfed0df920040dc2aa1a7cf2a",
-    "size": 4622314
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.8.ipa",
+    "sha256": "346b8cb73d5ef10ea91f711d0318f9ce13b60318888c592e603adc43ce8b440e",
+    "size": 5671071
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/c12b60c29760001fb277285285670143becb3959/Benstore-Installer.zip",
@@ -1002,11 +1002,11 @@
    "version": "1.7",
    "build": 8,
    "date": "2026-11-21T22:24:25-05:00",
-   "notes": "Patched so it can update back (takes two updates). Faster re-runs (sign cache, pairing reuse), step timings",
+   "notes": "Has a Return to current version button added. Faster re-runs (sign cache, pairing reuse), step timings",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.7.ipa",
-    "sha256": "36f31411befde4727952286c2b3a7cc5305e1550d7e07656b4a79573f38bbf38",
-    "size": 4622266
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.7.ipa",
+    "sha256": "ca8fe008fdd751defa6f3c082da5f028a3aa76c2bf831a8c730a9baf077b32e0",
+    "size": 5671051
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/4be158e82e90cf29f964e51095aec83408368b58/Benstore-Installer.zip",
@@ -1023,11 +1023,11 @@
    "version": "1.6",
    "build": 7,
    "date": "2026-11-21T22:19:40-05:00",
-   "notes": "Patched so it can update back (takes two updates). Handshake before RemotePairing; no VPN pairing",
+   "notes": "Has a Return to current version button added. Handshake before RemotePairing; no VPN pairing",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.6.ipa",
-    "sha256": "cd32b6c10002221c5dbe67a8a8477d5764670f2103174f3f2d977c739caf029f",
-    "size": 4622064
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.6.ipa",
+    "sha256": "f16241fa33457336fe064163b883902cd941744bbdb36e49c0a437b5ea63743f",
+    "size": 5670815
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/954a2fa87f5734b5f89b6af0c408e0c1c6f18d8c/Benstore-Installer.zip",
@@ -1044,11 +1044,11 @@
    "version": "1.5",
    "build": 6,
    "date": "2026-11-21T22:09:06-05:00",
-   "notes": "Patched so it can update back (takes two updates). Discover RemotePairing port via Bonjour",
+   "notes": "Has a Return to current version button added. Discover RemotePairing port via Bonjour",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.5.ipa",
-    "sha256": "3a740c13232e22846fd6bc985bf78ea4b6790f05e6b144f976f30864b16d34bf",
-    "size": 4622128
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.5.ipa",
+    "sha256": "9ea149362ce37324777db2fa2d23bc8ee9e8533a2de6a76aa0e1a768cdfe8a70",
+    "size": 5670881
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/1b690d9d5526d38ee7d2a3aec95cb40f8060abe4/Benstore-Installer.zip",
@@ -1065,11 +1065,11 @@
    "version": "1.4",
    "build": 5,
    "date": "2026-11-21T21:59:12-05:00",
-   "notes": "Patched so it can update back (takes two updates). On-iPhone RemotePairing fallback, no hang after Trust",
+   "notes": "Has a Return to current version button added. On-iPhone RemotePairing fallback, no hang after Trust",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.4.ipa",
-    "sha256": "4a4600b16e8cb36b4c89c95b8946c57522887f4423303ab13f54287f848964de",
-    "size": 4619522
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.4.ipa",
+    "sha256": "f28f1bbcce0cb1a367e45405ec1f955cc54e97ed10d9440dcb93d97dd296ba6c",
+    "size": 5668267
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/5926a238d3f8cf6db24fc27fd3f001cca8bb8d34/Benstore-Installer.zip",
@@ -1086,11 +1086,11 @@
    "version": "1.3",
    "build": 4,
    "date": "2026-11-21T21:47:41-05:00",
-   "notes": "Patched so it can update back (takes two updates). RemotePairing for iOS 26.4+",
+   "notes": "Has a Return to current version button added. RemotePairing for iOS 26.4+",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.3.ipa",
-    "sha256": "2ff33cbb506ed942289fb84cd9eb208b6e0432e8087137278be03237e2e53f7c",
-    "size": 4619111
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.3.ipa",
+    "sha256": "7aa18bd8e32678f4377a755b632b55a1f8b5ef43db44145d383255af5a188b8e",
+    "size": 5667873
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/6988af7828455193803588005a0469d3455a31f4/Benstore-Installer.zip",
@@ -1107,11 +1107,11 @@
    "version": "1.2",
    "build": 3,
    "date": "2026-11-21T21:35:08-05:00",
-   "notes": "Patched so it can update back (takes two updates). Separate iPhone pairing for LocalDevVPN, auto-reconnect",
+   "notes": "Has a Return to current version button added. Separate iPhone pairing for LocalDevVPN, auto-reconnect",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.2.ipa",
-    "sha256": "ddcc5aceb9e21667575c0845e7925a8ed1761abba3a74d0cd9981f4c482563d0",
-    "size": 1196797
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.2.ipa",
+    "sha256": "94c2fa66b9d8265d719fbb3715d2cd1a2b5f15a871662865d6afba2cc8398a73",
+    "size": 2245591
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7cca0fb24b6977d31940ac131efba208b6f87e40/Benstore-Installer.zip",
@@ -1128,11 +1128,11 @@
    "version": "1.1",
    "build": 2,
    "date": "2026-11-21T21:15:57-05:00",
-   "notes": "Patched so it can update back (takes two updates). One-tap updates, certificate fixes",
+   "notes": "Has a Return to current version button added. One-tap updates, certificate fixes",
    "ios": {
-    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/502042bf2dec276728ada51572c8f731af402055/returnable/Benstore-1.1.ipa",
-    "sha256": "6c0a4797c182925dccc55c9264593a95d4ec8b7195591ca555b69a7df774daec",
-    "size": 1195146
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.1.ipa",
+    "sha256": "629194efaa2101fe818e2d0863acc99f6574c67f3389ff0a973c30d38c6380d1",
+    "size": 2243959
    },
    "mac": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/02fc2eaad9da77307f49b2d31162eb55f4b95a55/Benstore-Installer.zip",
@@ -1149,13 +1149,18 @@
    "version": "1.0",
    "build": 1,
    "date": "2026-11-21T19:35:00-05:00",
-   "notes": "The first Benstore. It has no updater, so it can't come back on its own: use Benstore Installer on your Mac to return.",
+   "notes": "Has a Return to current version button added. The first Benstore. Its own installer can't connect on iOS 26.4 and later.",
    "ios": {
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/7add774069fe418229a00097a5b9eba361914752/returnable/Benstore-1.0.ipa",
+    "sha256": "4c2231e5ee56806c37c607807eeac832f0a38db53435a0c64d91673937e2c854",
+    "size": 1675713
+   },
+   "pure": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/fc39d09aa518627d4a21d022848f26593f804f03/pure/Benstore-1.0.ipa",
     "sha256": "880edab8edb639e7a2aee5d682e17894fc29557a2bc4a9e0508cb50054cbae18",
     "size": 612979
    },
-   "returns": "risky"
+   "patched": true
   }
  ],
  "versionsPage": "https://benjaminsoble91-eng.github.io/benstore/versions.html"
