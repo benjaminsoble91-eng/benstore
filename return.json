@@ -1,0 +1,9 @@
+{
+ "version": "1.51",
+ "build": "52/x",
+ "notes": "Step 1 of 2 back to the current Benstore. After this installs, open Benstore and tap Update once more.",
+ "ios": {
+  "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/fc001291220ed1b24e1780550a39293168e14e1c/Benstore.ipa",
+  "sha256": "75d90492f32965e3cd6f4ba0a5889c614258bbd95290435025a2901b407de4f4"
+ }
+}
