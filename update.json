@@ -1,10 +1,10 @@
 {
- "version": "1.65",
- "build": "66/x",
- "notes": "Your theme's app icon comes back on its own: after returning from an older version, Benstore puts the themed icon back when it opens.",
+ "version": "1.66",
+ "build": "67/x",
+ "notes": "Remote install + admin panel. Your admin panel (admin.html) can install an app onto this iPhone; Benstore checks the request is from your key and asks you three times before installing. Turn the prompts off in Settings -> Remote installs -> Allow remote downloads.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "432c2ca81c4492e709d391d856d8cb8c96996021ba6fd713b21adaef804304d2"
+  "sha256": "2628a1321f7288b8350e50fa88b391ae888aa000f414ca9d3201d92f5dc06456"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.66",
+   "build": 67,
+   "date": "2026-11-26T14:37:27-05:00",
+   "notes": "Remote install + admin panel. Your admin panel (admin.html) can install an app onto this iPhone; Benstore checks the request is from your key and asks you three times before installing. Turn the prompts off in Settings -> Remote installs -> Allow remote downloads.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "2628a1321f7288b8350e50fa88b391ae888aa000f414ca9d3201d92f5dc06456",
+    "size": 2144654
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.65",
    "build": 66,
    "date": "2026-11-25T23:44:06-05:00",
    "notes": "Your theme's app icon comes back on its own: after returning from an older version, Benstore puts the themed icon back when it opens.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/bfcb3a42c6c7d215357c42b976d54058e878409f/Benstore.ipa",
     "sha256": "432c2ca81c4492e709d391d856d8cb8c96996021ba6fd713b21adaef804304d2",
     "size": 2132937
    },
@@ -48,7 +64,7 @@
    "version": "1.63",
    "build": 64,
    "date": "2026-11-25T23:30:11-05:00",
-   "notes": "Themes: Settings → Appearance → Theme. Orange, Classic Purple (the 1.0 color), Blue, Green, Pink, Red and Teal, each with a matching app icon. Reopen Benstore after picking one.",
+   "notes": "Themes: Settings \u2192 Appearance \u2192 Theme. Orange, Classic Purple (the 1.0 color), Blue, Green, Pink, Red and Teal, each with a matching app icon. Reopen Benstore after picking one.",
    "ios": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/31825e00cc822c8516827290075593b1aed3e277/Benstore.ipa",
     "sha256": "31f6fa6c1ab4a697b5e5cd844488116593ac5de3c288b72eb8249f3c0afa55da",
@@ -80,7 +96,7 @@
    "version": "1.61",
    "build": 62,
    "date": "2026-11-25T22:55:54-05:00",
-   "notes": "Experimental: Settings → Experimental → Install Older Version lists every Benstore build and installs the one you pick. The current version is always at the top so you can come back. Apps, Apple ID and settings stay.",
+   "notes": "Experimental: Settings \u2192 Experimental \u2192 Install Older Version lists every Benstore build and installs the one you pick. The current version is always at the top so you can come back. Apps, Apple ID and settings stay.",
    "ios": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/e3a6d25c73aab8d1d8da04fde3bf82eb617c2b22/Benstore.ipa",
     "sha256": "9d7195038a5f4b05fe308bcf29384b833dc4b65d4412fb9bcd77c91b2e421e68",
@@ -142,7 +158,7 @@
    "version": "1.57",
    "build": 58,
    "date": "2026-11-25T10:15:00-05:00",
-   "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings → Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
+   "notes": "Register App Groups: apps that use App Groups (like Erosion) get real groups under your team ID, group.<name>.<team ID>, the same way AltStore does it, including on backup Apple IDs. Toggle it in Settings \u2192 Installing (on by default). If Apple refuses a group, the install still finishes and Sideload Fixes covers it.",
    "ios": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/731a4ea8c329c63ce59e2c784f7b38460c15761f/Benstore.ipa",
     "sha256": "d039b252ae5156a534eae0013efd5a892a375640dbe2d046262340d3b145e75a",
@@ -157,7 +173,7 @@
    "version": "1.56",
    "build": 57,
    "date": "2026-11-25T09:55:00-05:00",
-   "notes": "Auto-strip switch: turn auto-strip on or off in Settings → Installing (on by default).",
+   "notes": "Auto-strip switch: turn auto-strip on or off in Settings \u2192 Installing (on by default).",
    "ios": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/4a7ea750e2d14c348b375189cbf2c640e3b87668/Benstore.ipa",
     "sha256": "2f29cc77dc645b76b4f3d40f84319010ca61d155c3fd62e2128d327d497786a1",
@@ -202,7 +218,7 @@
    "version": "1.53",
    "build": 54,
    "date": "2026-11-23T20:45:01-05:00",
-   "notes": "Mod Sources (Settings → Modded), private release optional",
+   "notes": "Mod Sources (Settings \u2192 Modded), private release optional",
    "ios": {
     "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/891cd79aacd4b6a7ed840cbba8fe2a9455b82752/Benstore.ipa",
     "sha256": "cce6dc7a9d57d3cfea422703c43db7bc1f6648d39a6d511cb06f8f2d40dfe574",

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Benstore Admin</title>
+<style>
+  :root{ --o:#ff9429; --o2:#ff7a00; --bg:#0f0f12; --card:#1b1b20; --card2:#232329;
+         --tx:#f3f3f5; --dim:#9a9aa6; --line:#2d2d35; --ok:#39c26b; --bad:#ff5d5d; }
+  *{box-sizing:border-box} html,body{margin:0}
+  body{font:16px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro",Segoe UI,Roboto,sans-serif;
+       background:var(--bg); color:var(--tx); padding:max(16px,env(safe-area-inset-top)) 16px 40px;
+       max-width:640px; margin:0 auto; -webkit-text-size-adjust:100%}
+  h1{font-size:22px; margin:4px 0 2px; display:flex; align-items:center; gap:9px}
+  h1 .k{width:22px;height:22px;flex:0 0 22px}
+  .sub{color:var(--dim); margin:0 0 18px; font-size:13px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin:12px 0}
+  .card h2{font-size:13px; letter-spacing:.06em; text-transform:uppercase; color:var(--dim); margin:0 0 12px}
+  label{display:block; font-size:13px; color:var(--dim); margin:12px 0 5px}
+  input,select{width:100%; background:var(--card2); border:1px solid var(--line); color:var(--tx);
+       border-radius:11px; padding:12px 13px; font-size:16px; outline:none}
+  input:focus,select:focus{border-color:var(--o)}
+  button{appearance:none; border:0; border-radius:12px; font-size:16px; font-weight:600;
+       padding:13px 16px; color:#241300; background:linear-gradient(180deg,var(--o),var(--o2));
+       width:100%; margin-top:16px}
+  button:disabled{opacity:.45}
+  button.ghost{background:var(--card2); color:var(--tx); border:1px solid var(--line); font-weight:500}
+  .pill{display:inline-block; font-size:11px; padding:3px 8px; border-radius:999px; background:var(--card2);
+       color:var(--dim); border:1px solid var(--line)}
+  .dev{display:flex; align-items:center; gap:12px; padding:12px; border:1px solid var(--line);
+       border-radius:12px; margin:8px 0; cursor:pointer; background:var(--card2)}
+  .dev.sel{border-color:var(--o); box-shadow:0 0 0 1px var(--o)}
+  .dev .nm{font-weight:600} .dev .meta{font-size:12px; color:var(--dim)}
+  .dev .dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex:0 0 9px}
+  .dev .dot.old{background:#6b6b76}
+  .empty{color:var(--dim); font-size:14px; text-align:center; padding:18px 6px}
+  .log{font:12px/1.5 ui-monospace,Menlo,monospace; background:#000; border:1px solid var(--line);
+       border-radius:11px; padding:11px; max-height:200px; overflow:auto; white-space:pre-wrap; color:#cfcfd6}
+  .row{display:flex; gap:10px} .row>*{flex:1}
+  .k-ok{color:var(--ok)} .k-bad{color:var(--bad)}
+  a{color:var(--o)}
+  .note{font-size:12px; color:var(--dim); margin-top:6px}
+</style>
+</head>
+<body>
+<h1><svg class="k" viewBox="0 0 24 24" fill="none" stroke="var(--o)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M10.8 12.2 20 3"/><path d="M17 6l2 2"/><path d="M14 9l2 2"/></svg>Benstore Admin</h1>
+<p class="sub">Install an app onto any iPhone running Benstore — with the owner's consent.</p>
+
+<div class="card" id="keycard">
+  <h2>Admin key</h2>
+  <div id="keystate" class="empty">Load your <code>benstore-admin-key.json</code> to start.</div>
+  <div class="row">
+    <button class="ghost" id="loadkey">Load key file</button>
+    <button class="ghost" id="forgetkey" style="display:none">Forget key</button>
+  </div>
+  <input type="file" id="keyfile" accept="application/json,.json" style="display:none">
+  <p class="note">Your private key stays in this browser only (remembered on this device). It is never uploaded or sent anywhere — only the signatures it makes are.</p>
+</div>
+
+<div class="card" id="devcard" style="display:none">
+  <h2>Phones <span class="pill" id="devcount">0</span></h2>
+  <div id="devs"><div class="empty">Listening… open Benstore on a phone and it appears here.</div></div>
+</div>
+
+<div class="card" id="sendcard" style="display:none">
+  <h2>Install an app</h2>
+  <label>App name (shown on the phone)</label>
+  <input id="name" placeholder="e.g. Delta">
+  <label>IPA URL (must be https)</label>
+  <input id="url" placeholder="https://…/App.ipa" inputmode="url" autocapitalize="off">
+  <label>SHA-256 (optional — verified on the phone)</label>
+  <input id="sha" placeholder="optional" autocapitalize="off">
+  <button id="send" disabled>Send to selected phone</button>
+  <p class="note">The phone checks the request is from your key, then asks its owner three times before installing (unless they turned that off).</p>
+</div>
+
+<div class="card" id="logcard" style="display:none">
+  <h2>Status</h2>
+  <div class="log" id="log"></div>
+</div>
+
+<script>
+const NTFY="https://ntfy.sh";
+const b64=(buf)=>btoa(String.fromCharCode(...new Uint8Array(buf)));
+const enc=new TextEncoder();
+let KEY=null, TAG=null, REG=null, STAT=null;
+const devices=new Map();           // topic -> {name,ver,seen}
+let selected=null;
+const $=id=>document.getElementById(id);
+
+function log(msg,cls){ const l=$("log"); const t=new Date().toLocaleTimeString();
+  l.innerHTML+=`<div class="${cls||''}">${t}  ${msg}</div>`; l.scrollTop=l.scrollHeight; }
+
+async function sha256hex(str){ const d=await crypto.subtle.digest("SHA-256",enc.encode(str));
+  return [...new Uint8Array(d)].map(b=>b.toString(16).padStart(2,"0")).join(""); }
+
+// ---- key handling ----
+async function useKey(obj){
+  const key=await crypto.subtle.importKey("jwk",obj.jwk,{name:"ECDSA",namedCurve:"P-256"},false,["sign"]);
+  // tag = first 16 hex of sha256(public point); must match the app's embedded key
+  const pub=Uint8Array.from(atob(obj.pub),c=>c.charCodeAt(0));
+  const dig=await crypto.subtle.digest("SHA-256",pub);
+  const tag=[...new Uint8Array(dig)].map(b=>b.toString(16).padStart(2,"0")).join("").slice(0,16);
+  KEY=key; TAG=tag; REG="benstore-reg-"+tag; STAT="benstore-st-"+tag;
+  localStorage.setItem("benstore_admin_key",JSON.stringify(obj));
+  $("keystate").innerHTML=`<span class="k-ok">Key loaded.</span> Admin tag <code>${tag}</code>`;
+  $("forgetkey").style.display=""; $("devcard").style.display=""; $("sendcard").style.display="";
+  $("logcard").style.display=""; log("Listening for phones on this key…");
+  listen();
+}
+$("loadkey").onclick=()=>$("keyfile").click();
+$("keyfile").onchange=e=>{ const f=e.target.files[0]; if(!f)return;
+  const r=new FileReader(); r.onload=async()=>{ try{ await useKey(JSON.parse(r.result)); }
+    catch(x){ $("keystate").innerHTML=`<span class="k-bad">That file isn't a valid admin key.</span>`; } };
+  r.readAsText(f); };
+$("forgetkey").onclick=()=>{ localStorage.removeItem("benstore_admin_key"); location.reload(); };
+
+// ---- live subscription (registry + status) via ntfy SSE, replays recent cache ----
+function sse(topic,since,onMsg){
+  const es=new EventSource(`${NTFY}/${topic}/sse?since=${since}`);
+  es.onmessage=ev=>{ try{ const m=JSON.parse(ev.data); if(m.event==="message"&&typeof m.message==="string") onMsg(m.message,m); }catch(x){} };
+  es.onerror=()=>{ /* EventSource auto-reconnects */ };
+  return es;
+}
+function listen(){
+  sse(REG,"12h",(body)=>{ try{ const h=JSON.parse(body);
+    if(h.hello&&typeof h.topic==="string"){ devices.set(h.topic,{name:h.name||h.topic,ver:h.ver||"?",seen:h.seen||Date.now()/1000}); renderDevs(); } }catch(x){} });
+  sse(STAT,"10m",(body)=>{ try{ const s=JSON.parse(body);
+    const who=s.name||s.topic||"a phone"; const st=s.state||""; const extra=s.msg?` — ${s.msg}`:"";
+    const cls=st==="done"?"k-ok":(st==="error"||st==="declined")?"k-bad":"";
+    log(`${who}: ${st}${extra}`,cls); }catch(x){} });
+}
+function renderDevs(){
+  const el=$("devs"); const now=Date.now()/1000;
+  const list=[...devices.entries()].sort((a,b)=>b[1].seen-a[1].seen);
+  $("devcount").textContent=list.length;
+  if(!list.length){ el.innerHTML=`<div class="empty">Listening… open Benstore on a phone and it appears here.</div>`; return; }
+  el.innerHTML="";
+  for(const [topic,d] of list){
+    const old=now-d.seen>900;
+    const div=document.createElement("div");
+    div.className="dev"+(selected===topic?" sel":"");
+    div.innerHTML=`<div class="dot ${old?"old":""}"></div><div style="flex:1"><div class="nm"></div>
+      <div class="meta">Benstore ${d.ver} · seen ${rel(now-d.seen)}</div></div>`;
+    div.querySelector(".nm").textContent=d.name;
+    div.onclick=()=>{ selected=topic; renderDevs(); updateSend(); };
+    el.appendChild(div);
+  }
+}
+function rel(s){ s=Math.max(0,s|0); if(s<60)return"just now"; if(s<3600)return (s/60|0)+"m ago";
+  if(s<86400)return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
+
+// ---- sending ----
+function updateSend(){ $("send").disabled=!(selected && $("url").value.trim().startsWith("https://")); }
+$("url").addEventListener("input",updateSend);
+
+$("send").onclick=async()=>{
+  if(!KEY||!selected) return;
+  const url=$("url").value.trim(), name=$("name").value.trim()||"an app", sha=$("sha").value.trim();
+  if(!url.startsWith("https://")){ log("URL must start with https://","k-bad"); return; }
+  const nonceBuf=crypto.getRandomValues(new Uint8Array(12));
+  const nonce=[...nonceBuf].map(b=>b.toString(16).padStart(2,"0")).join("");
+  const payloadObj={v:1,t:selected,name,url,exp:Math.floor(Date.now()/1000)+300,nonce};
+  if(sha) payloadObj.sha256=sha.toLowerCase();
+  const payload=JSON.stringify(payloadObj);
+  const sigBuf=await crypto.subtle.sign({name:"ECDSA",hash:"SHA-256"},KEY,enc.encode(payload));
+  const envelope=JSON.stringify({payload,sig:b64(sigBuf)});
+  $("send").disabled=true;
+  try{
+    const r=await fetch(`${NTFY}/${selected}`,{method:"POST",body:envelope});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const dn=devices.get(selected); log(`Sent “${name}” to ${dn?dn.name:selected}. Waiting for the owner…`);
+  }catch(x){ log("Couldn't send: "+x.message,"k-bad"); }
+  $("send").disabled=false; updateSend();
+};
+
+// restore key from this device
+const saved=localStorage.getItem("benstore_admin_key");
+if(saved){ try{ useKey(JSON.parse(saved)); }catch(x){} }
+</script>
+</body>
+</html>
