@@ -109,7 +109,7 @@ list.addEventListener('click', async e => {
 });
 q.addEventListener('input', render);
 fetch('update.json', {cache: 'no-store'}).then(r => r.json()).then(u => {
-  latest = u.build;
+  latest = parseInt(u.build);
   versions = (u.versions && u.versions.length ? u.versions : [u]).slice().sort((a, b) => b.build - a.build);
   render();
 }).catch(() => list.innerHTML = '<div class="err">Couldn\'t load the version list.</div>');
