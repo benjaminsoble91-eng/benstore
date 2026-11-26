@@ -1,10 +1,10 @@
 {
- "version": "1.69",
- "build": "70/x",
- "notes": "Admin Panel is now inside Benstore, only on the iPhone that holds your admin key (Settings → Remote installs). The web panel is gone.",
+ "version": "1.70",
+ "build": "71/x",
+ "notes": "Admin Panel now remembers every phone for good: once Benstore is opened on a phone, it stays on your list (showing when it was last seen) instead of dropping off after a day. Swipe a phone to forget it.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "287618a1f8631ec10b9b94a294677ef3a562ccaa403406f5683f2581053ca649"
+  "sha256": "41c343f465a33faa80d86979fc67f7d5293f0f55d8ab270642fd9e6514dc6858"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.70",
+   "build": 71,
+   "date": "2026-11-26T15:08:22-05:00",
+   "notes": "Admin Panel now remembers every phone for good: once Benstore is opened on a phone, it stays on your list (showing when it was last seen) instead of dropping off after a day. Swipe a phone to forget it.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "41c343f465a33faa80d86979fc67f7d5293f0f55d8ab270642fd9e6514dc6858",
+    "size": 2179744
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.69",
    "build": 70,
    "date": "2026-11-26T14:57:18-05:00",
    "notes": "Admin Panel is now inside Benstore, only on the iPhone that holds your admin key (Settings → Remote installs). The web panel is gone.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/ae05ab5a82a999f54d4b51d977e93564dff73501/Benstore.ipa",
     "sha256": "287618a1f8631ec10b9b94a294677ef3a562ccaa403406f5683f2581053ca649",
     "size": 2178050
    },
