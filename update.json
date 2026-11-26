@@ -1,10 +1,10 @@
 {
- "version": "1.71",
- "build": "72/x",
- "notes": "Remote install from a file: in a phone's screen in the Admin Panel, tap Choose IPA File to install an IPA from your iPhone. It's uploaded to a temporary host and the phone downloads and verifies it. Pasting an https link still works.",
+ "version": "1.72",
+ "build": "73/x",
+ "notes": "JIT: Settings → JIT → Enable JIT opens a sideloaded app with JIT on (emulators and similar). Works on iOS 17+, including the iOS 26+ method on newer iPhones. Needs LocalDevVPN and Developer Mode.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "1a0b3a1e04b17f42702f14b1f6eb7f8b3da17c99221716bbc4368e432377cf40"
+  "sha256": "fea26d6db264d4bcb2ff051b5f7c6dae76e3c8bc9bd87716ea31cf2714ff0237"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.72",
+   "build": 73,
+   "date": "2026-11-26T17:19:04-05:00",
+   "notes": "JIT: Settings → JIT → Enable JIT opens a sideloaded app with JIT on (emulators and similar). Works on iOS 17+, including the iOS 26+ method on newer iPhones. Needs LocalDevVPN and Developer Mode.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "fea26d6db264d4bcb2ff051b5f7c6dae76e3c8bc9bd87716ea31cf2714ff0237",
+    "size": 3986272
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.71",
    "build": 72,
    "date": "2026-11-26T15:14:46-05:00",
    "notes": "Remote install from a file: in a phone's screen in the Admin Panel, tap Choose IPA File to install an IPA from your iPhone. It's uploaded to a temporary host and the phone downloads and verifies it. Pasting an https link still works.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/464db1909e27d9da756e612efd5ebdfb44ac9782/Benstore.ipa",
     "sha256": "1a0b3a1e04b17f42702f14b1f6eb7f8b3da17c99221716bbc4368e432377cf40",
     "size": 2186955
    },
