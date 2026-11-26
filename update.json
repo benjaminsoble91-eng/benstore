@@ -1,10 +1,10 @@
 {
- "version": "1.73",
- "build": "74/x",
- "notes": "JIT speed fix: on iOS 26+ the app's own memory faults no longer go through Benstore's debugger, which made emulators crawl. The JIT log also shows whether the app asked for JIT memory.",
+ "version": "1.74",
+ "build": "75/x",
+ "notes": "Admin Panel redesign: phone cards with status, a summary of how many phones are active, search, rename phones, an App Library of saved IPAs, and installing one app onto several phones at once.",
  "ios": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
-  "sha256": "803854078119e6f26fb07b3053b0351ef5653106f5a7d40f3b37505f91c7530d"
+  "sha256": "7994e7f2987ff2895d4238ecea83fe214aff8f5be6c1b36985d8dce8eaebf816"
  },
  "mac": {
   "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
@@ -13,12 +13,28 @@
  },
  "versions": [
   {
+   "version": "1.74",
+   "build": 75,
+   "date": "2026-11-26T18:00:37-05:00",
+   "notes": "Admin Panel redesign: phone cards with status, a summary of how many phones are active, search, rename phones, an App Library of saved IPAs, and installing one app onto several phones at once.",
+   "ios": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "sha256": "7994e7f2987ff2895d4238ecea83fe214aff8f5be6c1b36985d8dce8eaebf816",
+    "size": 4012878
+   },
+   "mac": {
+    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore-Installer.zip",
+    "sha256": "c8701d5d7e6be9ac15097650645c194188aa76d582674d1b5063f816bb8ef49d",
+    "build": 47
+   }
+  },
+  {
    "version": "1.73",
    "build": 74,
    "date": "2026-11-26T17:42:25-05:00",
    "notes": "JIT speed fix: on iOS 26+ the app's own memory faults no longer go through Benstore's debugger, which made emulators crawl. The JIT log also shows whether the app asked for JIT memory.",
    "ios": {
-    "url": "https://benjaminsoble91-eng.github.io/benstore/Benstore.ipa",
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/0e1c23bd6834e86aa6f0667a320604618820a717/Benstore.ipa",
     "sha256": "803854078119e6f26fb07b3053b0351ef5653106f5a7d40f3b37505f91c7530d",
     "size": 3986531
    },
