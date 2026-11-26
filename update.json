@@ -1144,6 +1144,18 @@
     "size": 1183983
    },
    "patched": true
+  },
+  {
+   "version": "1.0",
+   "build": 1,
+   "date": "2026-11-21T19:35:00-05:00",
+   "notes": "The first Benstore. It has no updater, so it can't come back on its own: use Benstore Installer on your Mac to return.",
+   "ios": {
+    "url": "https://raw.githubusercontent.com/benjaminsoble91-eng/benstore/fc39d09aa518627d4a21d022848f26593f804f03/pure/Benstore-1.0.ipa",
+    "sha256": "880edab8edb639e7a2aee5d682e17894fc29557a2bc4a9e0508cb50054cbae18",
+    "size": 612979
+   },
+   "returns": "risky"
   }
  ],
  "versionsPage": "https://benjaminsoble91-eng.github.io/benstore/versions.html"
